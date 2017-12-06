@@ -1,0 +1,24 @@
+{
+  "name": "cricet-tournament-manager",
+  "version": "1.0.0",
+  "description": "This is sample application to manage cricket tournament",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit-github/cricket-tournament.git"
+  },
+  "keywords": [
+    "cricket",
+    "Tournament",
+    "manager"
+  ],
+  "author": "Ankit Parikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankit-github/cricket-tournament/issues"
+  },
+  "homepage": "https://github.com/ankit-github/cricket-tournament#readme"
+}
