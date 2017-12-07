@@ -25,9 +25,11 @@
   },
   "homepage": "https://github.com/ankit-github/cricket-tournament#readme",
   "dependencies": {
+    "grommet": "^2.0.0-alpha.5",
     "material-ui": "^0.20.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "styled-components": "^2.2.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
