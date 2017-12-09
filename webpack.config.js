@@ -1,5 +1,6 @@
 const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: './src/index.jsx',
@@ -12,14 +13,22 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.js|.jsx?$/, loaders: ['babel-loader'] }
+      { test: /\.js|.jsx?$/, loaders: ['babel-loader'] },
+      { test: /\.css?$/,       
+        use: ExtractTextPlugin.extract({
+          use: ['css-loader']
+        }) 
+      }
     ]
   },
   plugins: [
     new CopyWebpackPlugin([
       { from: 'static' },
       { from: 'assets' },
-    ])
+    ]),
+    new ExtractTextPlugin({
+      filename: 'styles.css'
+    })
   ],
   devServer: {
     contentBase: './dist'

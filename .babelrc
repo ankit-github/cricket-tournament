@@ -3,6 +3,9 @@
     "react",
     "env"
   ],
+  "plugins": [
+    "transform-class-properties"
+  ],
   "ignore": [
     "node_modules/"
   ]
