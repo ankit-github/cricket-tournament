@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Schedule from './components/Schedule';
 import Rules from './components/Rules';
+import LocationMap from './components/LocationMap';
 import ComingSoon from './components/ComingSoon';
 
 import './style.css';
@@ -40,7 +41,7 @@ const App = (props) => (
             <Route path="/gallery" exact component={ComingSoon} />
             <Route path="/statistics" exact component={ComingSoon} />
             <Route path="/fantasy" exact component={ComingSoon} />
-            <Route path="/venue" exact component={ComingSoon} />
+            <Route path="/venue" exact component={LocationMap} />
           </Box>
         </Box>
       </Router>
