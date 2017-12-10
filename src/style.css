@@ -5,3 +5,9 @@
 .schedule-day {
   margin-bottom: 20px;
 }
+body{
+
+		background-image: url('../assets/images/sport.jpg');
+		background-position: left top;
+  background-repeat: repeat;
+}

@@ -18,7 +18,8 @@ module.exports = {
         use: ExtractTextPlugin.extract({
           use: ['css-loader']
         }) 
-      }
+      },
+      { test: /\.jpg?$/, loaders: ['file-loader'] },
     ]
   },
   plugins: [
