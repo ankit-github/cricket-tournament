@@ -9,3 +9,15 @@
 .location-map {
   height: 350px;
 }
+
+.no-opacity {
+  opacity: 1;
+}
+
+body{
+  background-image: url('../assets/images/sport.jpg');
+  background-position: left top;
+  background-repeat: repeat;
+  margin: 0;
+  opacity: 0.9;
+}
