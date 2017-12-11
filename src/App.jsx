@@ -12,6 +12,7 @@ import Rules from './components/Rules';
 import LocationMap from './components/LocationMap';
 import Gallery from './components/Gallery';
 import Teams from './components/Teams';
+import Scoreboard from './components/DigitalScorecard';
 import ComingSoon from './components/ComingSoon';
 import Text from 'grommet/components/Text';
 
@@ -40,7 +41,9 @@ const App = (props) => (
             <Route path="/schedule" exact component={Schedule} />
             <Route path="/teams" exact component={Teams} />
             <Route path="/gallery" exact component={Gallery} />
-            <Route path="/venue" exact component={LocationMap} /> 
+            <Route path="/statistics" exact component={ComingSoon} />
+            <Route path="/fantasy" exact component={Scoreboard} />
+            <Route path="/venue" exact component={LocationMap} />
           </Box>
         </Box>
       </Box>

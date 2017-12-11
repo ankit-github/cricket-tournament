@@ -1,5 +1,5 @@
 {
-  "name": "cricet-tournament-manager",
+  "name": "cricket-tournament-manager",
   "version": "1.0.0",
   "description": "This is sample application to manage cricket tournament",
   "main": "index.js",
