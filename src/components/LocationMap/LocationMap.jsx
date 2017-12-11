@@ -9,7 +9,8 @@ const LocationMap = (props) => (
     <Box full="horizontal" className="location-map">
       <GoogleMap 
         center={[23.061867, 72.519537]}
-        zoom={16}>
+        zoom={16}
+        apiKey="AIzaSyAfn6GDah0Qh4ib8gwbc1K7kT0W2B0wYzI" >
         <Box lat={23.061714} lng={72.518969}>iBASEt India</Box>
         <Box lat={23.063678} lng={72.511985}>Neon Sports Acedemy</Box>
       </GoogleMap>
