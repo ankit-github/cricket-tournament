@@ -16,3 +16,14 @@ body{
   background-repeat: repeat;
   margin: 0;
 }
+
+.image-gallery{
+ height: 600px;
+  width: 800px;
+}
+
+.galleryImage
+{
+  height: 600px;
+  width: 800px;
+}
