@@ -1,3 +1,3 @@
-import DigitalScoreboard from './Scoreboard';
+import DigitalScoreboard from './DigitalScorecard';
 
 export default DigitalScoreboard;
