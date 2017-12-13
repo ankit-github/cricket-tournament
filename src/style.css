@@ -1,20 +1,16 @@
-.menu-bar > a {
-  margin-left: 40px;
-}
-
-.schedule-day {
-  margin-bottom: 20px;
-}
-
-.location-map {
-  height: 500px;
-}
-
 body{
   background-image: url('../assets/images/sport.jpg');
   background-position: left top;
   background-repeat: repeat;
   margin: 0;
+}
+
+.menu-bar > a {
+  margin-left: 40px;
+}
+
+.location-map {
+  height: 500px;
 }
 
 .image-gallery{
@@ -33,6 +29,20 @@ body{
   width: 40px;
   padding: 4px 8px;
   font-size: 18px;
-  border: 5px solid #333333;
+  border: 5px solid #333;
   border-radius: 20px;
+}
+
+.day-match {
+  border-radius: 10px;
+}
+
+.schedule-date {
+  color: #333;
+}
+
+.battle-match {
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 5px;
+  min-width: 200px;
 }

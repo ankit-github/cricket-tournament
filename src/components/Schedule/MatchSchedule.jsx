@@ -1,34 +1,38 @@
 import React from 'react';
 import Box from 'grommet/components/Box';
-import Grid from 'grommet/components/Grid';
+import Image from 'grommet/components/Image';
+import Heading from 'grommet/components/Heading';
 import Text from 'grommet/components/Text';
+import TeamData from '../../data/teams';
 
 const MatchSchedule = ({ schedule }) => (
-  <Grid align="center" columns={["flex", "flex"]} gap={{horizontal: 'small'}}>
+  <React.Fragment>
     {schedule.days.map((day) => (
-      <React.Fragment>
-        <Box className="schedule-day">
-          {day.date}
+      <Box direction="column" key={day.date} className="day-match">
+        <Box align="center" className="schedule-date">
+          <Heading level={4} size="medium">{day.date}</Heading>
         </Box>
-        <Box>
-          <Box direction="row" justify="between">
-            { day.teams.map((teamName) => <Text>{teamName}</Text>)}
-          </Box>
-          <Grid align="center" columns={["xsmall", "flex", "xsmall"]} gap="none">
-            {
-              day.matches.map((match) => (
-                <React.Fragment>
-                  <Box>{match.matchNo}</Box>
-                  <Box>{match.teams}</Box>
-                  <Box>{match.time}</Box>
-                </React.Fragment>
-              ))
-            }
-          </Grid>
+        <Box direction="row" justify="center">
+        {
+          day.matches.map((match, index) => (
+            <Box key={`${index}.${match.matchNo}`} align="center" margin="small" className="battle-match">
+              <Box margin="small">{`Battle-${match.matchNo}`}</Box>
+                {(match.teams.length > 0) ?
+                  <Box direction="row" align="center" margin="small">
+                    <Image src={TeamData[match.teams[0]].image} {...TeamData[match.teams[0]].thumbnilSize} />
+                    <Text margin="small">Vs.</Text>
+                    <Image src={TeamData[match.teams[1]].image} {...TeamData[match.teams[1]].thumbnilSize} />
+                  </Box>
+                  :<Box margin="small" pad="medium">{match.matchName}</Box>
+                }
+              <Box margin="small">{match.time}</Box>
+            </Box>
+          ))
+        }
         </Box>
-      </React.Fragment>
+      </Box>
     ))}
-  </Grid>
+  </React.Fragment>
 );
 
 export default MatchSchedule;
