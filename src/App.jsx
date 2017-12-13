@@ -11,6 +11,7 @@ import Schedule from './components/Schedule';
 import Rules from './components/Rules';
 import LocationMap from './components/LocationMap';
 import Gallery from './components/Gallery';
+import Teams from './components/Teams';
 import ComingSoon from './components/ComingSoon';
 import Text from 'grommet/components/Text';
 
@@ -32,19 +33,15 @@ const App = (props) => (
             <RoutedAnchor path="/schedule">Schedule</RoutedAnchor>
             <RoutedAnchor path="/teams">Teams</RoutedAnchor>
             <RoutedAnchor path="/gallery">Gallery</RoutedAnchor>
-            <RoutedAnchor path="/statistics">Statistics</RoutedAnchor>
-            <RoutedAnchor path="/fantasy">Fantasy</RoutedAnchor>
-            <RoutedAnchor path="/venue">Venue Details</RoutedAnchor>
-            
+            <RoutedAnchor path="/venue">Venue Details</RoutedAnchor>            
           </Box>
           <Box>
             <Route path="/" exact component={Home} />
             <Route path="/rules" exact component={Rules} />
             <Route path="/schedule" exact component={Schedule} />
-            <Route path="/teams" exact component={ComingSoon} />
+            <Route path="/teams" exact component={Teams} />
             <Route path="/gallery" exact component={Gallery} />
-            <Route path="/venue" exact component={LocationMap} />
-            
+            <Route path="/venue" exact component={LocationMap} />            
           </Box>
         </Box>
       </Router>

@@ -51,3 +51,7 @@ body{
   border-radius: 5px;
   min-width: 200px;
 }
+
+.team-card-front, .team-card-back {
+  width: 150px;
+}

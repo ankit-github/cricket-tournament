@@ -24,7 +24,7 @@ const Home = (props) => (
     </Box>
     <Box align="center" full="horizontal" direction="row">
        {teamLogo.teams.map((team, teamIndex) => 
-            <Image src={team.original} size="small"  height="150px"  />  
+            <Image key={teamIndex} src={team.original} size="small"  height="150px"  />  
        )}
     
     </Box>    
