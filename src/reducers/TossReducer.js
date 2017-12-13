@@ -1,10 +1,17 @@
+import { TossActions } from '../components/Toss/actions';
+
 const initialState = {
   winBy: '',
   selected: ''
 };
 
 const tossReducer = (state = initialState, action) => {
-  return state;
+  let tossStatus = state;
+  switch (action.type) {
+    case TossActions.COMPLETE_TOSS: 
+      tossStatus = { ...state, winBy: action.result.teamName, selected: action.result.selected };
+  }
+  return tossStatus;
 };
 
 export default tossReducer;
