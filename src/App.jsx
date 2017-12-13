@@ -41,8 +41,6 @@ const App = (props) => (
             <Route path="/schedule" exact component={Schedule} />
             <Route path="/teams" exact component={ComingSoon} />
             <Route path="/gallery" exact component={Gallery} />
-            <Route path="/statistics" exact component={ComingSoon} />
-            <Route path="/fantasy" exact component={ComingSoon} />
             <Route path="/venue" exact component={LocationMap} />
           </Box>
         </Box>
