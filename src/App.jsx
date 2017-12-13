@@ -49,7 +49,7 @@ const App = (props) => (
       </Router>
     </Box>
     <Box tag="footer" align="center" pad={{horizontal: 'xlarge', vertical: 'large'}} alignSelf="end">
-      For interal use only @ iBASEt india
+      For internal use only @ iBASEt india
     </Box>
   </Grommet>
 );
