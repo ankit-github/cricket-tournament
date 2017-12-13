@@ -12,6 +12,7 @@ import Rules from './components/Rules';
 import LocationMap from './components/LocationMap';
 import Gallery from './components/Gallery';
 import ComingSoon from './components/ComingSoon';
+import Text from 'grommet/components/Text';
 
 import './style.css';
 import "react-image-gallery/styles/css/image-gallery.css";
@@ -34,6 +35,7 @@ const App = (props) => (
             <RoutedAnchor path="/statistics">Statistics</RoutedAnchor>
             <RoutedAnchor path="/fantasy">Fantasy</RoutedAnchor>
             <RoutedAnchor path="/venue">Venue Details</RoutedAnchor>
+            
           </Box>
           <Box>
             <Route path="/" exact component={Home} />
@@ -42,12 +44,14 @@ const App = (props) => (
             <Route path="/teams" exact component={ComingSoon} />
             <Route path="/gallery" exact component={Gallery} />
             <Route path="/venue" exact component={LocationMap} />
+            
           </Box>
         </Box>
       </Router>
     </Box>
     <Box tag="footer" align="center" pad={{horizontal: 'xlarge', vertical: 'large'}} alignSelf="end">
-      For internal use only @ iBASEt india
+      For internal use only @ iBASEt india<br/>  
+      <Text size="small">For any query mail on gpw-shf-india@ibaset.com</Text>      
     </Box>
   </Grommet>
 );
