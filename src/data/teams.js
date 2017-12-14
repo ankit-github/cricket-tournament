@@ -97,7 +97,10 @@ const teams = {
     group: 'G',
     players: [
       'Jasmina Kamani',
-      'Neha Dhandhukiya'
+      'Neha Dhandhukiya',
+      'Aditi Patel',
+      'Anjali Patel',
+      'Hetal Shah'
     ]
   },
   'hit': {
@@ -108,7 +111,10 @@ const teams = {
     group: 'B',
     players: [
       'Ekta Patel',
-      'Hetal Patel'
+      'Hetal Patel',
+      'Bhumita Vidja',
+      'Shefali Shah',
+      'Ekta Kabra'
     ]
   }
 };
