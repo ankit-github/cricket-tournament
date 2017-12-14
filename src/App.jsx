@@ -48,7 +48,7 @@ const App = (props) => (
     </Box>
     <Box tag="footer" align="center" pad={{horizontal: 'xlarge', vertical: 'large'}} alignSelf="end">
       For internal use only @ iBASEt india<br/>  
-      <Text size="small">For any query mail on gpw-shf-india@ibaset.com</Text>      
+      <Text size="small">For any query mail us gpw-shf-india@ibaset.com</Text>      
     </Box>
   </Grommet>
 );
