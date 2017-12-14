@@ -8,11 +8,11 @@ const teams = {
     group: 'A',
     players: [
       'Ankit Parikh',
-      'Maulik B Patel',
       'Bhavin Hariyani',
+      'Dhaval Atri',
       'Jaykishan Hirpara',
-      'Nirav Patel',
-      'Dhaval Atri'
+      'Maulik B Patel',      
+      'Nirav Patel'  
     ]
   },
   'hawk': {
@@ -104,10 +104,10 @@ const teams = {
     group: 'G',
     players: [
       'Jasmina Kamani',
-      'Neha Dhandhukiya',
       'Aditi Patel',
       'Anjali Patel',
-      'Hetal Shah'
+      'Hetal Shah',
+      'Neha Dhandhukiya'
     ]
   },
   'hit': {
@@ -119,10 +119,10 @@ const teams = {
     group: 'B',
     players: [
       'Ekta Patel',
-      'Hetal Patel',
-      'Bhumita Vidja',
-      'Shefali Shah',
-      'Ekta Kabra'
+      'Bhumita Vidja',      
+      'Ekta Kabra',
+      'Khushali Patel',
+      'Shefali Shah'
     ]
   }
 };
