@@ -1,4 +1,5 @@
-body{
+/** Home Page **/
+body {
   background-image: url('../assets/images/sport.jpg');
   background-position: left top;
   background-repeat: repeat;
@@ -7,21 +8,41 @@ body{
 
 .menu-bar > a {
   margin-left: 40px;
+  color: black;
+  font-weight: 100;
+  font-size: 18px;
 }
+
+.main-content{
+  background: transparent !important;
+}
+
+.content-data {
+  background: rgba(255, 255, 255, 0.8);
+  margin-top: 90px;
+  min-height: calc(100vh - 134px) !important;
+}
+
+header.top-hader {
+  background: rgba(12, 191, 196, 0.95);
+  padding: 5px;
+  position: fixed;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.footer-content {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: white;
+  padding: 10px !important;
+  border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+/** Venue Details **/
 
 .location-map {
   height: 500px;
-}
-
-.image-gallery{
- height: 600px;
-  width: 800px;
-}
-
-.galleryImage
-{
-  height: 600px;
-  width: 800px;
 }
 
 .circle {
@@ -33,6 +54,19 @@ body{
   border-radius: 20px;
 }
 
+/** Gallery **/
+.image-gallery{
+ height: 600px;
+  width: 800px;
+}
+
+.galleryImage
+{
+  height: 600px;
+  width: 800px;
+}
+
+/** Schedule **/
 .day-match {
   border-radius: 10px;
 }

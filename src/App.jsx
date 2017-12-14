@@ -20,33 +20,32 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const App = (props) => (
   <Grommet>
-    <Box full="horizontal" align="center" tag="header" pad={{horizontal: 'xlarge'}}>
-      <Image height="50" width="200" src="/images/logo.svg"/>
-      <Heading level={3}>Box Cricket Tournament - 2017</Heading>
-    </Box>
-    <Box tag="section" pad={{horizontal: 'xlarge'}}>
-      <Router>
-        <Box>
+    <Router>
+      <Box>
+        <Box tag='header' direction='row' fixed={true} className="top-hader">
+          <Image height="80px" src="./images/logo.png"/>
           <Box className="menu-bar" full="horizontal" align="center" direction="row" justify="center">
             <RoutedAnchor path="/">Home</RoutedAnchor>
             <RoutedAnchor path="/rules">Rules</RoutedAnchor>
             <RoutedAnchor path="/schedule">Schedule</RoutedAnchor>
             <RoutedAnchor path="/teams">Teams</RoutedAnchor>
             <RoutedAnchor path="/gallery">Gallery</RoutedAnchor>
-            <RoutedAnchor path="/venue">Venue Details</RoutedAnchor>            
+            <RoutedAnchor path="/venue">Venue Details</RoutedAnchor>
           </Box>
+        </Box>
+        <Box tag="section" pad={{horizontal: 'xlarge', bottom:'xlarge'}} className="content-data">
           <Box>
             <Route path="/" exact component={Home} />
             <Route path="/rules" exact component={Rules} />
             <Route path="/schedule" exact component={Schedule} />
             <Route path="/teams" exact component={Teams} />
             <Route path="/gallery" exact component={Gallery} />
-            <Route path="/venue" exact component={LocationMap} />            
+            <Route path="/venue" exact component={LocationMap} /> 
           </Box>
         </Box>
-      </Router>
-    </Box>
-    <Box tag="footer" align="center" pad={{horizontal: 'xlarge', vertical: 'large'}} alignSelf="end">
+      </Box>
+    </Router>
+    <Box tag="footer" align="center" pad={{horizontal: 'xlarge', vertical: 'large'}} alignSelf="end" className="footer-content">
       For internal use only @ iBASEt india<br/>  
       <Text size="small">For any query mail us gpw-shf-india@ibaset.com</Text>      
     </Box>
