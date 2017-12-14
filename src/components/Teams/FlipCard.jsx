@@ -8,21 +8,18 @@ class FlipCard extends React.Component {
     this.state = {mouseOver: false};
   }
 
-  resetCard = () => {
-    this.setState({
-      mouseOver: false
-    });
-  }
-
   flipCard = () => {
-    this.setState({
-      mouseOver: true
+    this.setState((prevState) => {
+      const changeValue = prevState.mouseOver;
+      return {
+        mouseOver: !changeValue
+      }
     });
   }
   
   render() {
     return (
-      <Box onMouseOver={this.flipCard} onMouseOut={this.resetCard}>
+      <Box onClick={this.flipCard}>
         { this.state.mouseOver ? this.props.children[1] : this.props.children[0] }
       </Box>
     );

@@ -81,6 +81,8 @@ header.top-hader {
   min-width: 200px;
 }
 
+/** Teams **/
 .team-card-front, .team-card-back {
-  width: 150px;
+  border: 1px solid rgba(0,0,0,0.15);
+  height: 400px;
 }
