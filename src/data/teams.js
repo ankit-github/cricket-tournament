@@ -3,6 +3,7 @@ const teams = {
     name: 'Royal Strikers',
     image: './images/teams/royal.png',
     thumbnilSize: { height: '90px', width: '80px'},
+    mediumSize: { height: '180px', width: '160px'},
     captain: 'Ankit Parikh',
     group: 'A',
     players: [
@@ -18,6 +19,7 @@ const teams = {
     name: 'Hawk Masters',
     image: './images/teams/hawk.png',
     thumbnilSize: { height: '90px', width: '117px'},
+    mediumSize: { height: '180px', width: '235px'},
     captain: 'Ketul Patel',
     group: 'A',
     players: [
@@ -33,6 +35,7 @@ const teams = {
     name: 'Goblin Gang',
     image: './images/teams/goblin.png',
     thumbnilSize: { height: '90px', width: '65px'},
+    mediumSize: { height: '180px', width: '130px'},
     captain: 'Parth Patel',
     group: 'A',
     players: [
@@ -48,6 +51,7 @@ const teams = {
     name: 'Mighty Lions',
     image: './images/teams/lion.png',
     thumbnilSize: { height: '90px', width: '95px'},
+    mediumSize: { height: '180px', width: '190px'},
     captain: 'Kashyap Thakkar',
     group: 'B',
     players: [
@@ -63,6 +67,7 @@ const teams = {
     name: 'Knight Slingers',
     image: './images/teams/knight.png',
     thumbnilSize: { height: '90px', width: '90px'},
+    mediumSize: { height: '180px', width: '180px'},
     captain: 'Umang Bhavsar',
     group: 'B',
     players: [
@@ -78,6 +83,7 @@ const teams = {
     name: 'Musketeers',
     image: './images/teams/musketeers.png',
     thumbnilSize: { height: '90px', width: '90px'},
+    mediumSize: { height: '180px', width: '180px'},
     captain: 'Jaydip Kamani',
     group: 'B',
     players: [
@@ -93,6 +99,7 @@ const teams = {
     name: 'Guts \'n\' Glory',
     image: './images/teams/g1.png',
     thumbnilSize: { height: '90px', width: '70px'},
+    mediumSize: { height: '180px', width: '140px'},
     captain: 'Jasmina Kamani',
     group: 'G',
     players: [
@@ -107,6 +114,7 @@ const teams = {
     name: 'Hit n Run',
     image: './images/teams/g2.png',
     thumbnilSize: { height: '90px', width: '80px'},
+    mediumSize: { height: '180px', width: '160px'},
     captain: 'Ekta Patel',
     group: 'B',
     players: [
