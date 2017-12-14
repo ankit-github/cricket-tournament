@@ -13,7 +13,7 @@ const teamLogo = {
       originalClass : 'galleryTeamLogo'},
     { original: './images/teams/lion.png',  
       originalClass : 'galleryTeamLogo' },
-    { original: './images/teams/masketeers.png',  
+    { original: './images/teams/musketeers.png',  
       originalClass : 'galleryTeamLogo' },
     { original: './images/teams/royal.png',  
       originalClass : 'galleryTeamLogo' }

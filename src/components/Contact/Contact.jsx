@@ -6,7 +6,7 @@ import Heading from 'grommet/components/Heading';
 const Contact = (props) => (
     
     <Box full="horizontal" align="center" pad={{vertical: 'large'}}>        
-        For any query mail on gpw-shf-india@ibaset.com        
+        For any query mail us gpw-shf-india@ibaset.com        
     </Box>
     
 );

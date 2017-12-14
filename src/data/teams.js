@@ -23,7 +23,7 @@ const teams = {
     players: [
       'Ketul Patel',
       'Chintan Patel',
-      'Nishith Shah',
+      'Nishith Patel',
       'Rahul Joshi',
       'Rajesh Jethva',
       'Yogesh Patil'
