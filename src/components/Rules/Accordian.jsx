@@ -29,9 +29,10 @@ class Accordian extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Box full="horizontal" justify="between" direction="row" onClick={this.toggleView} margin={{top: "small"}}>
-          <Text>{this.props.title}</Text>
+        <Box full="horizontal" direction="row" onClick={this.toggleView} margin={{top: "small"}} pad="small" className="accordian-header">
           {this.state.displayContent ? <UpArrow /> : <DownArrow />}
+          &nbsp;&nbsp;&nbsp;
+          <Text>{this.props.title}</Text>
         </Box>
         {this.state.displayContent ? this.props.children : null}
       </React.Fragment>

@@ -12,11 +12,13 @@ const Rules = (props) => (
     {
       PlayingRules.areas.map((area, index) => (
         <Accordian title={area.name} key={index}>
+          <Box className="accordian-item" margin={{horizontal:'medium'}} pad={{vertical:'small'}} animation={['slideDown', 'fadeIn']}>
           {area.rules.map((rule, ruleIndex) => 
-            <Box margin={{horizontal: 'small'}} direction="row" key={`${index}.${ruleIndex}`}>
+            <Box pad={{horizontal: 'medium'}} direction="row" key={`${index}.${ruleIndex}`}>
               <Pin />
               <Text margin={{left: "small"}}>{rule}</Text>
             </Box>)}
+          </Box>
         </Accordian>   
       ))
     }

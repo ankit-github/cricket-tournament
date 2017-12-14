@@ -10,7 +10,7 @@ const MatchSchedule = ({ schedule }) => (
     {schedule.days.map((day) => (
       <Box direction="column" key={day.date} className="day-match">
         <Box align="center" className="schedule-date">
-          <Heading level={4} size="medium">{day.date}</Heading>
+          <Heading level={4} size="large" margin="small">{day.date}</Heading>
         </Box>
         <Box direction="row" justify="center">
         {

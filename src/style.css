@@ -86,3 +86,18 @@ header.top-hader {
   border: 1px solid rgba(0,0,0,0.15);
   height: 400px;
 }
+
+/** Rules **/
+.accordian-header {
+  background: rgba(12, 191, 196, 0.20);
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 5px;
+}
+
+.accordian-item {
+  background: rgba(12, 191, 196, 0.10);
+  border: 1px solid rgba(0,0,0,0.15);
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
