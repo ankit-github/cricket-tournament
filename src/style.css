@@ -1,7 +1,22 @@
 .menu-bar > a {
   margin-left: 40px;
+  color: black;
+  font-weight: 100;
+  font-size: 18px;
 }
-
+.main-content{
+  background: transparent !important;
+}
+.content-data {
+  background: rgba(255, 255, 255, 0.8);
+  margin-top: 90px;
+  min-height: calc(100vh - 134px) !important;
+}
+header.top-hader {
+  background: rgba(12, 191, 196, 0.95);
+  padding: 5px;
+  position: fixed;
+}
 .schedule-day {
   margin-bottom: 20px;
 }
@@ -35,4 +50,11 @@ body{
   font-size: 18px;
   border: 5px solid #333333;
   border-radius: 20px;
+}
+.footer-content {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: white;
+  padding: 10px !important;
 }
