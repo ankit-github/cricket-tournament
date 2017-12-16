@@ -5,6 +5,7 @@ import Heading from 'grommet/components/Heading';
 import Select from 'grommet/components/Select';
 import Button from 'grommet/components/Button';
 import MatchData from '../../data/matches';
+import TeamData from '../../data/teams'
 import { matchSelectedAction } from './actions';
 
 class MatchSelection extends React.Component {
@@ -16,8 +17,14 @@ class MatchSelection extends React.Component {
     }
   }
 
-  generateMatchTitle = ({matchNo, teams}) => {
-    return `${matchNo}. ${teams[0]} Vs. ${teams[1]}`;
+  generateMatchTitle = ({matchNo, teams, matchName, phase}) => {
+    let matchTitle = '';
+    if(teams.length > 0) {
+      matchTitle = `${TeamData[teams[0]].name} Vs. ${TeamData[teams[1]].name}`;
+    } else {
+      matchTitle = matchName;
+    }
+    return `${matchTitle} (${phase})`
   }
 
   handleChange = ({option}) => {

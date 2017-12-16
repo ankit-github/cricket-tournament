@@ -32,6 +32,7 @@ const App = (props) => (
             <RoutedAnchor path="/teams">Teams</RoutedAnchor>
             <RoutedAnchor path="/gallery">Gallery</RoutedAnchor>
             <RoutedAnchor path="/venue">Venue Details</RoutedAnchor>
+            <RoutedAnchor path="/scorecard">Scorecard</RoutedAnchor>
           </Box>
         </Box>
         <Box tag="section" pad={{horizontal: 'xlarge', bottom:'xlarge'}} className="content-data">
@@ -41,8 +42,7 @@ const App = (props) => (
             <Route path="/schedule" exact component={Schedule} />
             <Route path="/teams" exact component={Teams} />
             <Route path="/gallery" exact component={Gallery} />
-            <Route path="/statistics" exact component={ComingSoon} />
-            <Route path="/fantasy" exact component={Scoreboard} />
+            <Route path="/scorecard" exact component={Scoreboard} />
             <Route path="/venue" exact component={LocationMap} />
           </Box>
         </Box>
