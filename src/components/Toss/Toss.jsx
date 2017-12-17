@@ -5,7 +5,7 @@ import Heading from 'grommet/components/Heading';
 import Select from 'grommet/components/Select';
 import Button from 'grommet/components/Button';
 import { MatchAreas } from '../../data/defaults';
-import TeamData from '../../data/teams'
+import TeamData from '../../data/teams';
 import { completeTossAction } from './actions';
 
 class Toss extends React.Component {

@@ -1,3 +1,3 @@
-import MatchInnings from './MatchInnnings';
+import MatchInnings from './MatchInnings';
 
-export default MatchInnnings;
+export default MatchInnings;

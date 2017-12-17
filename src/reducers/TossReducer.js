@@ -9,7 +9,7 @@ const tossReducer = (state = initialState, action) => {
   let tossStatus = state;
   switch (action.type) {
     case TossActions.COMPLETE_TOSS: 
-      tossStatus = { ...state, winBy: action.result.teamName, selected: action.result.selected };
+      tossStatus = { ...state, winBy: action.result.teamName, selected: action.result.selection };
   }
   return tossStatus;
 };

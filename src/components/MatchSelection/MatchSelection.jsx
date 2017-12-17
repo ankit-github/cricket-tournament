@@ -51,7 +51,7 @@ class MatchSelection extends React.Component {
             children={this.generateMatchTitle}
             onChange={this.handleChange}
             value={this.state.selectedMatch} />
-          <Button type="button" label="Next >" fill={false} onClick={this.handleNext}/>
+          <Button label="Next >" onClick={this.handleNext}/>
         </Box>
       </Box>);
   }
