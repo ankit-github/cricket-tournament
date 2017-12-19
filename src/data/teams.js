@@ -57,9 +57,9 @@ const teams = {
     players: [
       'Kashyap Thakkar',
       'Ashish Sangani',
+      'Chirag Nathwani',
       'Kartik Patel',
       'Maulik Shah',
-      'Utpal Ganatra',
       'Viresh Shah'
     ]
   }, 

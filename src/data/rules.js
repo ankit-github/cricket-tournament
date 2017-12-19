@@ -42,7 +42,17 @@ const rules = {
     {
       name: "Others",
       rules: [
+        "Umpire Decesion will be final in any case. [Fastball, Runout, Wide, etc..]",
         "Stump side line will be considered for no ball and runout"
+      ]
+    },
+    {
+      name: "Girls",
+      rules: [
+        "5 over game",
+        "2 run declare on side nets behind middle line.",
+        "Wide line will be extended for 1 feet.",
+        "Wicket keeper is optional"
       ]
     }
   ]
