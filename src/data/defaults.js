@@ -1,6 +1,6 @@
 const MatchAreas = {
-  BATTING: 'Batting',
-  BOWLING: 'Bowling'
+  BATTING: 'BATTING',
+  BOWLING: 'BOWLING'
 };
 
 export { MatchAreas };

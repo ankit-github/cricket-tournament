@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading';
 import Select from 'grommet/components/Select';
+import Text   from 'grommet/components/Text';
 import Button from 'grommet/components/Button';
 import { MatchAreas } from '../../data/defaults';
 import TeamData from '../../data/teams';
@@ -12,7 +13,7 @@ class Toss extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      teamName: '',
+      teamName: props.teams[0],
       selection: ''
     };
   }
@@ -41,14 +42,22 @@ class Toss extends React.Component {
       <Box>
         <Heading level={3}>Toss</Heading>
         <Box direction="row">
-          <Select options={this.props.teams}
-            onChange={this.handleTeamChange}
-            children={this.generateTeamTitles}
-            value={this.state.teamName} />
-          <Select options={Object.keys(MatchAreas)} 
+          <Box>
+            <Text><strong>Won By</strong></Text>
+            <Select options={this.props.teams}
+              onChange={this.handleTeamChange}
+              children={this.generateTeamTitles}
+              value={TeamData[this.state.teamName].name} />
+          </Box>
+          <Box>
+            <Text><strong>Selected First</strong></Text>
+            <Select options={Object.keys(MatchAreas)} 
             onChange={this.handleAreaChange}
             value={this.state.selection} />
-          <Button type="button" label="Next >" fill={false} onClick={this.handleNext}/>
+          </Box>
+          <Box pad="small">
+            <Button type="button" label="Next >" fill={false} onClick={this.handleNext}/>
+          </Box>
         </Box>
       </Box>
     );
