@@ -101,3 +101,16 @@ header.top-hader {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+/** Results **/
+.bottom-line {
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.match-result {
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+.match-result:hover {
+  background-color: rgba(0,0,0,0.15);
+}

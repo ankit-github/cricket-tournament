@@ -14,9 +14,8 @@ const data = {
       "teams": ["guts", "hit", "goblin", "musketeers"],
       "matches": [
         { "matchNo": 1, "teams": ["guts", "hit" ], "time": "7:00 PM"},
-        { "matchNo": 2, "teams": ["guts", "hit" ], "time": "7:15 PM"},
-        { "matchNo": 3, "teams": ["goblin", "musketeers" ], "time": "7:30 PM"},
-        { "matchNo": 4, "teams": ["goblin", "musketeers" ], "time": "7:45 PM"}
+        { "matchNo": 2, "teams": ["goblin", "musketeers" ], "time": "7:30 PM"},
+        { "matchNo": 3, "teams": ["goblin", "musketeers" ], "time": "7:45 PM"}
       ]
     }]
   },
