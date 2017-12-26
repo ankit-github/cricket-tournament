@@ -56,22 +56,49 @@ const results = {
       "winner": "goblin",
       "margin": "8 runs"
     }
+  },
+  "t1.1": {
+    "royal": {"runs": 25, "wickets": 6, "overs": 5.4 },
+    "hawk": {"runs": 33, "wickets": 4, "overs": 6 },
+    "result": {
+      "winner": "hawk",
+      "margin": "8 runs"
+    }
+  },
+  "t1.2": {
+    "hawk": {"runs": 27, "wickets": 4, "overs": 5.3 },
+    "goblin": {"runs": 26, "wickets": 5, "overs": 6 },
+    "result": {
+      "winner": "hawk",
+      "margin": "2 wickets"
+    }
+  },
+  "t1.3": {
+    "royal": {"runs": 13, "wickets": 6, "overs": 5.3 },
+    "goblin": {"runs": 14, "wickets": 2, "overs": 4.3 },
+    "result": {
+      "winner": "goblin",
+      "margin": "4 wickets"
+    }
   }
 };
-/*
-const matches = [];
+
+const matches = {};
 
 const addMatches = (phase, prefix) => (matchArray, scheduleDay, dayIndex) => {
-  const modifiedMatches = scheduleDay.matches.map((match, index) =>({key: `${prefix}${dayIndex}.${match.matchNo}`, phase, ...match}));
+  const modifiedMatches = scheduleDay.matches.map((match, index) =>{
+    const matchKey = `${prefix}${dayIndex+1}.${match.matchNo}`;
+    const matchObj = { key: matchKey, phase, result: results[matchKey] };
+    for(const matchDataKey in match) {
+      matchObj[matchDataKey] = match[matchDataKey];
+    }
+    return matchObj;
+  });
   matchArray.push(...modifiedMatches);
   return matchArray;
 };
 
-matches.push(...schedule.practice.days.reduce(addMatches('Practice', 'p'), new Array()));
-matches.push(...schedule.tournament.days.reduce(addMatches('Tournament', 't'), new Array()));
+matches.practice = schedule.practice.days.reduce(addMatches('Practice', 'p'), new Array());
+matches.tournament = schedule.tournament.days.reduce(addMatches('Tournament', 't'), new Array());
 
-const ResultData = {
-  matches
-};
-*/
-export default results;
+export default matches;
