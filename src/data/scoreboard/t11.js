@@ -31,7 +31,8 @@ export const t11 = {
           'Bhavin Hariyani': {overs: 1, balls:[1,'WD',1,0,4,1,'WD',1,'WK'], runs: 10, wickets:1}, 
           'Dhaval Atri': {overs: 1, balls:[0,1,6,1,1,1], runs: 10, wickets:0}
         },
-        extra: 6
+        extra: 6,
+        oversBowled: 6
       }
     },
     2: {
@@ -60,7 +61,8 @@ export const t11 = {
           'Rahul Joshi': {overs: 1, balls:[1,'WD',1,1,0,0,'WK'], runs: 4, wickets:0}, 
           'Ketul Patel': {overs: 0.4, balls:[1,1,'WK','WK'], runs: 2, wickets:2}
         },
-        extra: 6
+        extra: 6,
+        oversBowled: 5.4
       }
     }
   }
