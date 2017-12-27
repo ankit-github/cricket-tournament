@@ -66,7 +66,7 @@ const results = {
     }
   },
   "t1.2": {
-    "hawk": {"runs": 27, "wickets": 4, "overs": 5.3 },
+    "hawk": {"runs": 27, "wickets": 4, "overs": 5.4 },
     "goblin": {"runs": 26, "wickets": 5, "overs": 6 },
     "result": {
       "winner": "hawk",
@@ -74,7 +74,7 @@ const results = {
     }
   },
   "t1.3": {
-    "royal": {"runs": 13, "wickets": 6, "overs": 5.3 },
+    "royal": {"runs": 13, "wickets": 6, "overs": 5.4 },
     "goblin": {"runs": 14, "wickets": 2, "overs": 4.3 },
     "result": {
       "winner": "goblin",
