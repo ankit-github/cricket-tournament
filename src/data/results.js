@@ -80,6 +80,30 @@ const results = {
       "winner": "goblin",
       "margin": "4 wickets"
     }
+  },
+  "t2.1": {
+    "slingers": {"runs": 17, "wickets": 4, "overs": 6 },
+    "lions": {"runs": 39, "wickets": 4, "overs": 6 },
+    "result": {
+      "winner": "lions",
+      "margin": "22 runs"
+    }
+  },
+  "t2.2": {
+    "slingers": {"runs": 15, "wickets": 6, "overs": 4.3 },
+    "musketeers": {"runs": 21, "wickets": 3, "overs": 5.2 },
+    "result": {
+      "winner": "musketeers",
+      "margin": "3 wickets"
+    }
+  },
+  "t2.3": {
+    "lions": {"runs": 27, "wickets": 2, "overs": 3.4 },
+    "musketeers": {"runs": 26, "wickets": 5, "overs": 6 },
+    "result": {
+      "winner": "lions",
+      "margin": "4 wickets"
+    }
   }
 };
 
