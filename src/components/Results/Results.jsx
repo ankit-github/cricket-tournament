@@ -11,7 +11,7 @@ const Results = (props) => (
     <Box className="bottom-line"></Box>
     <Tabs justify="center">
       <Tab title="Practice Matches">
-        <MatchesResult matches={ResultData.practice} />
+        <MatchesResult matches={ResultData.practice} detailedResult={false} />
       </Tab>
       <Tab title="Tournament Matches">
         <MatchesResult matches={ResultData.tournament} />

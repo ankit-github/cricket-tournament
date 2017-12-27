@@ -16,11 +16,13 @@ class MatchesResult extends React.Component {
   }
 
   openScorecard = (matchKey, details) => {
-    this.setState({
-      showLayer: true,
-      matchKey: matchKey,
-      details: details
-    });
+    if(this.props.detailedResult) {
+      this.setState({
+        showLayer: true,
+        matchKey: matchKey,
+        details: details
+      });
+    }
   }
 
   closeScorecard = (matchKey) => {
@@ -69,4 +71,9 @@ class MatchesResult extends React.Component {
       </Box>);
   }
 }
+
+MatchesResult.defaultProps = {
+  detailedResult: true
+};
+
 export default MatchesResult;
