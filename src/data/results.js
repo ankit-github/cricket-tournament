@@ -104,6 +104,46 @@ const results = {
       "winner": "lions",
       "margin": "4 wickets"
     }
+  },
+  "t3.1": {
+    "hawk": {"runs": 13, "wickets": 6, "overs": 4.3 },
+    "musketeers": {"runs": 34, "wickets": 4, "overs": 6 },
+    "result": {
+      "winner": "musketeers",
+      "margin": "21 runs"
+    }
+  },
+  "t3.2": {
+    "guts": {"runs": 17, "wickets": 3, "overs": 4.1 },
+    "hit": {"runs": 16, "wickets": 3, "overs": 5 },
+    "result": {
+      "winner": "guts",
+      "margin": "2 wickets"
+    }
+  },
+  "t3.3": {
+    "goblin": {"runs": 16, "wickets": 3, "overs": 5.4 },
+    "lions": {"runs": 15, "wickets": 6, "overs": 5 },
+    "result": {
+      "winner": "goblin",
+      "margin": "3 wickets"
+    }
+  },
+  "t3.4": {
+    "guts": {"runs": 17, "wickets": 2, "overs": 5 },
+    "hit": {"runs": 18, "wickets": 4, "overs": 4.2 },
+    "result": {
+      "winner": "hit",
+      "margin": "1 wicket"
+    }
+  },
+  "t3.5": {
+    "goblin": {"runs": 25, "wickets": 4, "overs": 6 },
+    "musketeers": {"runs": 25, "wickets": 5, "overs": 6 },
+    "result": {
+      "winner": "musketeers",
+      "margin": "2 runs in Superover"
+    }
   }
 };
 

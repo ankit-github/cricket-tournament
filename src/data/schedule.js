@@ -38,13 +38,13 @@ const data = {
       ]
     }, {
       "date": "Day 3 - Thrusday, 28 December, 2017",
-      "teams": ["guts", "hit", "Winner of Semi - 1", "Winner of Semi - 2"],
+      "teams": ["guts", "hit", "goblin", "hawk", "lions", "musketeers"],
       "matches": [
-        { "matchNo": 1, "matchName": "Qualifier 1", "teams": ["hawk","musketeers"], "time": "7:30 PM"},
+        { "matchNo": 1, "teams": ["hawk","musketeers"], "time": "7:30 PM"},
         { "matchNo": 2, "teams": ["guts", "hit" ], "time": "7:50 PM"},
-        { "matchNo": 3, "matchName": "Qualifier 2", "teams": ["lions","goblin"], "time": "8:20 PM"},
+        { "matchNo": 3, "teams": ["lions","goblin"], "time": "8:20 PM"},
         { "matchNo": 4, "teams": ["guts", "hit" ], "time": "8:40 PM"},
-        { "matchNo": 5, "matchName": "Final", "teams": [], "time": "9:10 PM"}
+        { "matchNo": 5, "teams": ["goblin","musketeers"], "time": "9:10 PM"}
       ]
     }]
   }
