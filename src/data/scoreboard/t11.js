@@ -57,7 +57,7 @@ export const t11 = {
           'Yogesh Patil': {overs: 1, balls:[0,0,1,0,0,6], runs: 7, wickets:0}, 
           'Rajesh Jethva': {overs: 1, balls:['WD',0,1,1,0,1,1], runs: 5, wickets:0},
           'Chintan Patel': {overs: 1, balls:[1,1,'WK',0,0,0], runs: 2, wickets:0}, 
-          'Nishith Patel': {overs: 1, balls:[0,0,1,'WK','1WK',1], runs: 3, wickets:0}, 
+          'Nishith Patel': {overs: 1, balls:[0,0,1,'WK','1WK',1], runs: 3, wickets:1}, 
           'Rahul Joshi': {overs: 1, balls:[1,'WD',1,1,0,0,'WK'], runs: 4, wickets:0}, 
           'Ketul Patel': {overs: 0.4, balls:[1,1,'WK','WK'], runs: 2, wickets:2}
         },
