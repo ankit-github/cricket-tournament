@@ -14,7 +14,7 @@ export const t13 = {
           'Dhaval Atri': { balls:[1,0,1,0,1,0], '4s': 0, '6s': 0, total: 3, balls: 6, out: '(uppernet)'},
           'Bhavin Hariyani': { balls:[0,1,1,1], '4s': 0, '6s': 0, total: 3, balls: 4, out: '(uppernet)'},
           'Ankit Parikh': { balls:[0,0,1], '4s': 0, '6s': 0, total: 1, balls: 4, out: 'runout'},
-          'Jaykishan Hirpara': { balls:[0,0,1,0,0,0,0,1,0], '4s': 0, '6s': 0, total: 2, balls: 9, out: '(uppernet)'},
+          'Jaykishan Hirpara': { balls:[0,0,1,0,0,0,0,1,0], '4s': 0, '6s': 0, total: 2, balls: 9, out: '(uppernet) b Kewal Yadav'},
           'Nirav Patel': { balls:[1], '4s': 0, '6s': 0, total: 1, balls: 1, out: 'b Ketul B Patel'}
         },
         extra: 2, wickets: 6,
@@ -29,7 +29,7 @@ export const t13 = {
           'Pravin Prajapati': {overs: 1, balls:[0,0,1,1,'WK',0], runs: 2, wickets:0}, 
           'Milan Chauhan': {overs: 1, balls:[0,'WK',0,0,1,1], runs: 2, wickets:0}, 
           'Pathik Mehta': {overs: 1, balls:[0,1,1,0,0,0], runs: 2, wickets:0}, 
-          'Kewal Yadav': {overs: 0.4, balls:[0,'WD','WD',0,1,'WK'], runs: 3, wickets:0}
+          'Kewal Yadav': {overs: 0.4, balls:[0,'WD','WD',0,1,'WK'], runs: 3, wickets:1}
         },
         extra: 2,
         oversBowled: 5.4
@@ -38,7 +38,7 @@ export const t13 = {
     2: {
       batting: {
         teamName: 'goblin',
-        players: ['Pravin Prajapati', 'Milan Chauhan', 'Pathik Mehta', 'Ketul B Patel', 'Kewal Yadav', 'Parth Patel'],
+        players: ['Pravin Prajapati', 'Milan Chauhan', 'Pathik Mehta', 'Ketul B Patel'],
         score: {
           'Parth Patel': { balls:[], '4s': 0, '6s': 0, total: 0, balls: 0},
           'Ketul B Patel': { balls:[0,0,1,1], '4s': 0, '6s': 0, total: 2, balls: 4},
