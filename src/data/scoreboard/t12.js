@@ -54,7 +54,7 @@ export const t12 = {
         team: 'goblin',
         bowlers: ['Pravin Prajapati', 'Pathik Mehta', 'Parth Patel', 'Ketul B Patel', 'Milan Chauhan', 'Kewal Yadav'],
         overs: {
-          'Parth Patel': {overs: 1, balls:['WD',1,1,1,'WK',0,0], runs: 4, wickets:1}, 
+          'Parth Patel': {overs: 1, balls:['WD',1,1,1,'WK',0,0], runs: 4, wickets:0}, 
           'Ketul B Patel': {overs: 1, balls:[1,1,0,1,1,1], runs: 5, wickets:0},
           'Pravin Prajapati': {overs: 1, balls:[1,1,0,1,0,'NB','WD',0], runs: 5, wickets:0}, 
           'Milan Chauhan': {overs: 1, balls:[1,'WK',0,0,0,1], runs: 2, wickets:1}, 
