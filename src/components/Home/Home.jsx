@@ -25,9 +25,10 @@ const Home = (props) => (
     </Box>
     <Box direction="row" justify="between" responsive>
        {Object.keys(TeamData).map((team) => 
-          <Image key={team} src={TeamData[team].image} {...TeamData[team].mediumSize} />
+          <Image key={team} src={TeamData[team].image} {...TeamData[team].thumbnilSize} />          
        )}
-    </Box>    
+      
+    </Box>
   </Box>
 );
 

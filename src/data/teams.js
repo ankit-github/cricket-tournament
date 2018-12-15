@@ -1,128 +1,128 @@
 const teams = {
   'royal': {
-    name: 'Royal Strikers',
-    image: './images/teams/royal.png',
+    name: 'Dhansu Tigers',
+    image: './images/teams/DhasuTigers.png',
     thumbnilSize: { height: '90px', width: '80px'},
     mediumSize: { height: '180px', width: '160px'},
-    captain: 'Ankit Parikh',
+    captain: 'Dhaval Atri',
     group: 'A',
     players: [
-      'Ankit Parikh',
-      'Bhavin Hariyani',
       'Dhaval Atri',
-      'Jaykishan Hirpara',
-      'Maulik B Patel',      
-      'Nirav Patel'  
+      'Saumil Mehta',
+      'Umang Bhavsar',
+      'Utpal Ganatra',
+      'Navin Prajapati',      
+      'Tushar Patel'  
     ]
   },
   'hawk': {
-    name: 'Hawk Masters',
-    image: './images/teams/hawk.png',
+    name: 'Team Spirit',
+    image: './images/teams/TeamSpirit.png',
     thumbnilSize: { height: '90px', width: '117px'},
     mediumSize: { height: '180px', width: '235px'},
-    captain: 'Ketul Patel',
+    captain: 'Bhavin Vachani',
     group: 'A',
     players: [
-      'Ketul Patel',
-      'Chintan Patel',
-      'Nishith Patel',
-      'Rahul Joshi',
-      'Rajesh Jethva',
-      'Yogesh Patil'
+      'Bhavin Vachani',
+      'Viresh Shah',
+      'Kunjan Shah',
+      'Kartik Patel',
+      'Avesh Gaji',
+      'Pradhyumn'
     ]
   },
   'goblin': {
-    name: 'Goblin Gang',
-    image: './images/teams/goblin.png',
+    name: 'Rising Stars',
+    image: './images/teams/RisingStars.png',
     thumbnilSize: { height: '90px', width: '65px'},
     mediumSize: { height: '180px', width: '130px'},
-    captain: 'Parth Patel',
+    captain: 'Rajesh Jethva',
     group: 'A',
     players: [
-      'Parth Patel',
-      'Ketul B Patel',
-      'Kewal Yadav',
-      'Milan Chauhan',
-      'Pathik Mehta',
-      'Pravin Prajapati'
+      'Rajesh Jethva',
+      'Rushikesh Patel',
+      'Pravin Prajapati',
+      'Shreyans Halani',
+      'Jatin Patel',
+      'Jignesh Patel'
     ]
   },
   'lions': {
-    name: 'Mighty Lions',
-    image: './images/teams/lion.png',
+    name: 'Eagles',
+    image: './images/teams/Eagles.png',
     thumbnilSize: { height: '90px', width: '95px'},
     mediumSize: { height: '180px', width: '190px'},
-    captain: 'Kashyap Thakkar',
+    captain: 'Chintan Patel',
     group: 'B',
     players: [
-      'Kashyap Thakkar',
+      'Chintan Patel',
+      'Rahul Joshi',
+      'Bhavesh Lakhani',
       'Ashish Sangani',
       'Chirag Nathwani',
-      'Kartik Patel',
-      'Maulik Shah',
-      'Viresh Shah'
+      'Divyang Golaviya'
     ]
   }, 
   'slingers': {
-    name: 'Knight Slingers',
-    image: './images/teams/knight.png',
+    name: 'Phoenix',
+    image: './images/teams/Phoenix.png',
     thumbnilSize: { height: '90px', width: '90px'},
     mediumSize: { height: '180px', width: '180px'},
-    captain: 'Umang Bhavsar',
+    captain: 'Milan Chauhan',
     group: 'B',
     players: [
-      'Umang Bhavsar',
-      'Bhavin Vachhani',
-      'Divyang Golaviya',
-      'Kishan Patel',
+      'Milan Chauhan',
+      'Ketul B Patel',
+      'Janak Patel',
       'Sagar Gohil',
-      'Suresh Prajapati'
+      'Subodh Kumar',
+      'Gaurang Parmar'
     ]
   }, 
   'musketeers': {
-    name: 'Musketeers',
-    image: './images/teams/musketeers.png',
+    name: 'Knights',
+    image: './images/teams/Knights.png',
     thumbnilSize: { height: '90px', width: '90px'},
     mediumSize: { height: '180px', width: '180px'},
-    captain: 'Jaydip Kamani',
+    captain: 'Parth Patel',
     group: 'B',
     players: [
-      'Jaydip Kamani',
-      'Janak Patel',
-      'Jignesh Yadav',
-      'Milan Kamboya',
-      'Shreyansh Halani',
-      'Rushikesh Patel'
+      'Parth Patel',
+      'Ketul M Patel',
+      'Chirag Prajapati',
+      'Aleef Gandluru',
+      'Abhishek Sharma',
+      'Maulik M Patel'
     ]
   },
   'guts': {
-    name: 'Guts \'n\' Glory',
-    image: './images/teams/g1.png',
+    name: 'Pitch Smashers',
+    image: './images/teams/PitchSmashers.png',
     thumbnilSize: { height: '90px', width: '70px'},
     mediumSize: { height: '180px', width: '140px'},
-    captain: 'Jasmina Kamani',
+    captain: 'Bhumita Vidja',
     group: 'G',
     players: [
-      'Jasmina Kamani',
-      'Aditi Patel',
-      'Anjali Patel',
-      'Hetal Shah',
-      'Neha Dhandhukiya'
+      'Bhumita Vidja',
+      'Ekta Patel',
+      'Mansi Vyas',
+      'Amee Badiyani',      
+      'Sweta Patel'
     ]
   },
   'hit': {
-    name: 'Hit n Run',
-    image: './images/teams/g2.png',
+    name: 'Angry Birds',
+    image: './images/teams/AngryBirds.png',
     thumbnilSize: { height: '90px', width: '80px'},
     mediumSize: { height: '180px', width: '160px'},
-    captain: 'Ekta Patel',
+    captain: 'Divya Borad',
     group: 'B',
     players: [
-      'Ekta Patel',
-      'Bhumita Vidja',      
-      'Ekta Kabra',
-      'Khushali Patel',
-      'Shefali Shah'
+      'Divya Borad',
+      'Ruhi Bhavsar',
+      'Hetal Shah',
+      'Neha Dhandhukiya',
+      'Prajeesha Pillai'
     ]
   }
 };

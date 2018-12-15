@@ -33,6 +33,7 @@ module.exports = {
   ],
   devServer: {
     contentBase: './dist',
-    port: 8085
+    disableHostCheck: true,
+    port: 80
   },
 };
