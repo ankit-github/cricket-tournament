@@ -50,7 +50,7 @@ const App = (props) => (
     </Router>
     <Box tag="footer" align="center" pad={{horizontal: 'xlarge', vertical: 'large'}} alignSelf="end" className="footer-content">
       For internal use only @ iBASEt india<br/>  
-      <Text size="small">For any query mail us gpw-shf-india@ibaset.com</Text>      
+      <Text size="small">For any query mail us hrindia@ibaset.com</Text>      
     </Box>
   </Grommet>
 );
