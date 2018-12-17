@@ -103,11 +103,11 @@ const teams = {
     captain: 'Bhumita Vidja',
     group: 'G',
     players: [
-      'Bhumita Vidja',
-      'Ekta Patel',
-      'Mansi Vyas',
-      'Amee Badiyani',      
-      'Sweta Patel'
+      'Divya Borad',
+      'Ruhi Bhavsar',
+      'Hetal Shah',
+      'Neha Dhandhukiya',
+      'Prajeesha Pillai'
     ]
   },
   'hit': {
@@ -118,11 +118,11 @@ const teams = {
     captain: 'Divya Borad',
     group: 'B',
     players: [
-      'Divya Borad',
-      'Ruhi Bhavsar',
-      'Hetal Shah',
-      'Neha Dhandhukiya',
-      'Prajeesha Pillai'
+      'Bhumita Vidja',
+      'Ekta Patel',
+      'Mansi Vyas',
+      'Amee Badiyani',      
+      'Sweta Patel'
     ]
   }
 };
