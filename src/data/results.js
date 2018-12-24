@@ -2,109 +2,117 @@ import schedule from './schedule';
 
 const results = {
   "p1.1": {
-    "royal": {"runs": 35, "wickets": 1, "overs": 5 },
-    "slingers": {"runs": 17, "wickets": 6, "overs": 4.3 },
+    "phoenix": {"runs": 26, "wickets": 5, "overs": 5 },
+    "tigers": {"runs": 27, "wickets": 4, "overs": 4 },    
     "result": {
-      "winner": "royal",
-      "margin": "18 runs"
+      "winner": "tigers",
+      "margin": "2 wickets"
     }
   },
   "p1.2": {
-    "hawk": {"runs": 33, "wickets": 4, "overs": 5 },
-    "lions": {"runs": 15, "wickets": 6, "overs": 4 },
+    "eagles": {"runs": 25, "wickets": 3, "overs": 5 },
+    "spirit": {"runs": 13, "wickets": 3, "overs": 5 },    
     "result": {
-      "winner": "hawk",
-      "margin": "18 runs"
+      "winner": "eagles",
+      "margin": "12 runs"
     }
   },
   "p1.3": {
-    "royal": {"runs": 20, "wickets": 4, "overs": 5 },
-    "lions": {"runs": 30, "wickets": 4, "overs": 5 },
+    "tigers": {"runs": 15, "wickets": 5, "overs": 4.3 },
+    "eagles": {"runs": 21, "wickets": 4, "overs": 3 },
     "result": {
-      "winner": "lions",
-      "margin": "10 runs"
+      "winner": "eagles",
+      "margin": "2 wicekt"
     }
   },
   "p1.4": {
-    "hawk": {"runs": 10, "wickets": 6, "overs": 4 },
-    "slingers": {"runs": 47, "wickets": 1, "overs": 5 },
+    "spirit": {"runs": 39, "wickets": 6, "overs": 5 },
+    "phoenix": {"runs": 15, "wickets": 4, "overs": 5 },
     "result": {
-      "winner": "slingers",
-      "margin": "37 runs"
+      "winner": "spirit",
+      "margin": "24 runs"
     }
   },
   "p2.1": {
-    "guts": {"runs": 28, "wickets": 3, "overs": 5 },
-    "hit": {"runs": 30, "wickets": 1, "overs": 3.2 },
+    "birds": {"runs": 12, "wickets": 2, "overs": 5 },
+    "smashers": {"runs": 13, "wickets": 0, "overs": 2.5 },    
     "result": {
-      "winner": "hit",
-      "margin": "4 wickets"
+      "winner": "smashers",
+      "margin": "5 wickets"
     }
   },
   "p2.2": {
-    "goblin": {"runs": 27, "wickets": 4, "overs": 5 },
-    "musketeers": {"runs": 36, "wickets": 4, "overs": 5 },
+    "smashers": {"runs": 8, "wickets": 1, "overs": 3 },
+    "birds": {"runs": 9, "wickets": 1, "overs": 1.5 },
     "result": {
-      "winner": "musketeers",
-      "margin": "9 runs"
+      "winner": "birds",
+      "margin": "4 wickets"
     }
   },
   "p2.3": {
-    "goblin": {"runs": 25, "wickets": 4, "overs": 5 },
-    "musketeers": {"runs": 17, "wickets": 6, "overs": 4.4 },
+    "knights": {"runs": 5, "wickets": 6, "overs": 4.5 },
+    "stars": {"runs": 6, "wickets": 0, "overs": 0.4 },    
     "result": {
-      "winner": "goblin",
-      "margin": "8 runs"
+      "winner": "stars",
+      "margin": "6 wickets"
     }
   },
-  "t1.1": {
-    "royal": {"runs": 25, "wickets": 6, "overs": 5.4 },
-    "hawk": {"runs": 33, "wickets": 4, "overs": 6 },
+  "p2.4": {
+    "stars": {"runs": 13, "wickets": 5, "overs": 5 },
+    "knights": {"runs": 14, "wickets": 2, "overs": 2.5 },
     "result": {
-      "winner": "hawk",
+      "winner": "knights",
+      "margin": "4 wickets"
+    }
+  }/*
+  "t1.1": {
+    "tigers": {"runs": 25, "wickets": 6, "overs": 5.4 },
+    "spirit": {"runs": 33, "wickets": 4, "overs": 6 },
+    "result": {
+      "winner": "spirit",
       "margin": "8 runs"
     }
   },
   "t1.2": {
-    "hawk": {"runs": 27, "wickets": 4, "overs": 5.4 },
-    "goblin": {"runs": 26, "wickets": 5, "overs": 6 },
+    "spirit": {"runs": 27, "wickets": 4, "overs": 5.4 },
+    "stars": {"runs": 26, "wickets": 5, "overs": 6 },
     "result": {
-      "winner": "hawk",
+      "winner": "spirit",
       "margin": "2 wickets"
     }
   },
   "t1.3": {
-    "royal": {"runs": 13, "wickets": 6, "overs": 5.4 },
-    "goblin": {"runs": 14, "wickets": 2, "overs": 4.3 },
+    "tigers": {"runs": 13, "wickets": 6, "overs": 5.4 },
+    "stars": {"runs": 14, "wickets": 2, "overs": 4.3 },
     "result": {
-      "winner": "goblin",
+      "winner": "stars",
       "margin": "4 wickets"
     }
   },
   "t2.1": {
-    "slingers": {"runs": 17, "wickets": 4, "overs": 6 },
-    "lions": {"runs": 39, "wickets": 4, "overs": 6 },
+    "phoenix": {"runs": 17, "wickets": 4, "overs": 6 },
+    "eagles": {"runs": 39, "wickets": 4, "overs": 6 },
     "result": {
-      "winner": "lions",
+      "winner": "eagles",
       "margin": "22 runs"
     }
   },
   "t2.2": {
-    "slingers": {"runs": 15, "wickets": 6, "overs": 4.3 },
-    "musketeers": {"runs": 21, "wickets": 3, "overs": 5.2 },
+    "phoenix": {"runs": 15, "wickets": 6, "overs": 4.3 },
+    "knights": {"runs": 21, "wickets": 3, "overs": 5.2 },
     "result": {
-      "winner": "musketeers",
+      "winner": "knights",
       "margin": "3 wickets"
     }
   },
   "t2.3": {
-    "lions": {"runs": 27, "wickets": 2, "overs": 3.4 },
-    "musketeers": {"runs": 26, "wickets": 5, "overs": 6 },
+    "eagles": {"runs": 27, "wickets": 2, "overs": 3.4 },
+    "knights": {"runs": 26, "wickets": 5, "overs": 6 },
     "result": {
-      "winner": "lions",
+      "winner": "eagles",
       "margin": "4 wickets"
     }
-  }
+  }*/
 };
 
 const matches = {};

@@ -1,5 +1,5 @@
 const teams = {
-  'royal': {
+  'tigers': {
     name: 'Dhansu Tigers',
     image: './images/teams/DhasuTigers.png',
     thumbnilSize: { height: '90px', width: '80px'},
@@ -15,7 +15,7 @@ const teams = {
       'Tushar Patel'  
     ]
   },
-  'hawk': {
+  'spirit': {
     name: 'Team Spirit',
     image: './images/teams/TeamSpirit.png',
     thumbnilSize: { height: '90px', width: '117px'},
@@ -31,7 +31,7 @@ const teams = {
       'Pradhyumn'
     ]
   },
-  'goblin': {
+  'stars': {
     name: 'Rising Stars',
     image: './images/teams/RisingStars.png',
     thumbnilSize: { height: '90px', width: '65px'},
@@ -47,7 +47,7 @@ const teams = {
       'Jignesh Patel'
     ]
   },
-  'lions': {
+  'eagles': {
     name: 'Eagles',
     image: './images/teams/Eagles.png',
     thumbnilSize: { height: '90px', width: '95px'},
@@ -63,7 +63,7 @@ const teams = {
       'Divyang Golaviya'
     ]
   }, 
-  'slingers': {
+  'phoenix': {
     name: 'Phoenix',
     image: './images/teams/Phoenix.png',
     thumbnilSize: { height: '90px', width: '90px'},
@@ -79,7 +79,7 @@ const teams = {
       'Gaurang Parmar'
     ]
   }, 
-  'musketeers': {
+  'knights': {
     name: 'Knights',
     image: './images/teams/Knights.png',
     thumbnilSize: { height: '90px', width: '90px'},
@@ -95,7 +95,7 @@ const teams = {
       'Maulik M Patel'
     ]
   },
-  'guts': {
+  'smashers': {
     name: 'Pitch Smashers',
     image: './images/teams/PitchSmashers.png',
     thumbnilSize: { height: '90px', width: '70px'},
@@ -110,7 +110,7 @@ const teams = {
       'Prajeesha Pillai'
     ]
   },
-  'hit': {
+  'birds': {
     name: 'Angry Birds',
     image: './images/teams/AngryBirds.png',
     thumbnilSize: { height: '90px', width: '80px'},

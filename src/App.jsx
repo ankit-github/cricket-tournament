@@ -29,7 +29,7 @@ const App = (props) => (
             <RoutedAnchor path="/">Home</RoutedAnchor>
             <RoutedAnchor path="/rules">Rules</RoutedAnchor>
             <RoutedAnchor path="/schedule">Schedule</RoutedAnchor>
-            {/*<RoutedAnchor path="/results">Results</RoutedAnchor> */ }
+            <RoutedAnchor path="/results">Results</RoutedAnchor>
             <RoutedAnchor path="/teams">Teams</RoutedAnchor> 
             <RoutedAnchor path="/gallery">Gallery</RoutedAnchor>
             <RoutedAnchor path="/venue">Venue Details</RoutedAnchor>
@@ -40,7 +40,7 @@ const App = (props) => (
             <Route path="/" exact component={Home} />
             <Route path="/rules" exact component={Rules} />
             <Route path="/schedule" exact component={Schedule} /> 
-            {/* <Route path="/results" exact component={Results} /> */}
+            <Route path="/results" exact component={Results} />
             <Route path="/teams" exact component={Teams} /> 
             <Route path="/gallery" exact component={Gallery} />
             <Route path="/venue" exact component={LocationMap} /> 

@@ -14,24 +14,25 @@ const galleryData = {
       originalClass : 'galleryImage' },
     { original: './images/gallery/7.jpg',  
       originalClass : 'galleryImage' },*/
-      { original: './images/gallery/IMG_4514.JPG',      
+      { original: './images/gallery/11.JPG',      
       originalClass : 'galleryImage' },
-{ original: './images/gallery/IMG_4518.JPG',      
+{ original: './images/gallery/12.JPG',      
       originalClass : 'galleryImage' },  
-{ original: './images/gallery/IMG_4534.JPG',      
+{ original: './images/gallery/13.JPG',      
       originalClass : 'galleryImage' },
-{ original: './images/gallery/IMG_4540.JPG',      
+{ original: './images/gallery/14.JPG',      
       originalClass : 'galleryImage' },
-{ original: './images/gallery/IMG_4515.JPG',      
+{ original: './images/gallery/15.JPG',      
       originalClass : 'galleryImage' },
-{ original: './images/gallery/IMG_4522.JPG',      
+{ original: './images/gallery/16.JPG',      
       originalClass : 'galleryImage' },
-{ original: './images/gallery/IMG_4531.JPG',      
+{ original: './images/gallery/17.JPG',      
       originalClass : 'galleryImage' },
-{ original: './images/gallery/IMG_4537.JPG',      
+{ original: './images/gallery/18.JPG',      
       originalClass : 'galleryImage' },
-{ original: './images/gallery/IMG_4541.JPG',      
-      originalClass : 'galleryImage' },
+{ original: './images/gallery/18.JPG',      
+      originalClass : 'galleryImage' }
+      /*,
 { original: './images/gallery/IMG_4516.JPG',      
       originalClass : 'galleryImage' },
 { original: './images/gallery/IMG_4526.JPG',      
@@ -41,7 +42,7 @@ const galleryData = {
 { original: './images/gallery/IMG_4538.JPG',      
       originalClass : 'galleryImage' },
 { original: './images/gallery/IMG_4542.JPG',      
-      originalClass : 'galleryImage' }
+      originalClass : 'galleryImage' }*/
   ]
 };
 
