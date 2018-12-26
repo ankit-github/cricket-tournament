@@ -1,68 +1,62 @@
 export const t13 = {
-  teams: [ 'royal', 'goblin'],
+  teams: [ 'tigers', 'stars'],
   toss: {
-    wonBy: 'royal',
+    wonBy: 'tigers',
     selected: 'Batting'
   },
   innings: {
     1: {
       batting: {
-        teamName: 'royal',
-        players: ['Ankit Parikh', 'Dhaval Atri', 'Maulik B Patel', 'Nirav Patel', 'Bhavin Hariyani', 'Jaykishan Hirpara'],
+        teamName: 'tigers',
+        players: ['Tushar Patel', 'Navin Prajapati', 'Saumil Mehta', 'Dhaval Atri', 'Umang Bhavsar'],
         score: {
-          'Maulik B Patel': { balls:[0,1,0,0,0], '4s': 0, '6s': 0, total: 1, balls: 5, out: 'runout'},
-          'Dhaval Atri': { balls:[1,0,1,0,1,0], '4s': 0, '6s': 0, total: 3, balls: 6, out: '(uppernet)'},
-          'Bhavin Hariyani': { balls:[0,1,1,1], '4s': 0, '6s': 0, total: 3, balls: 4, out: '(uppernet)'},
-          'Ankit Parikh': { balls:[0,0,1], '4s': 0, '6s': 0, total: 1, balls: 4, out: 'runout'},
-          'Jaykishan Hirpara': { balls:[0,0,1,0,0,0,0,1,0], '4s': 0, '6s': 0, total: 2, balls: 9, out: '(uppernet) b Kewal Yadav'},
-          'Nirav Patel': { balls:[1], '4s': 0, '6s': 0, total: 1, balls: 1, out: 'b Ketul B Patel'}
-        },
-        extra: 2, wickets: 6,
-        totalScore: 13
+          'Dhaval Atri': { balls:[0,0,0,0], '4s': 0, '6s': 0, total: 0, balls: 4, out: 'b Shreyans'},
+          'Tushar Patel': { balls:[0,1,0,0,0,0,0,0,0], '4s': 0, '6s': 0, total: 1, balls: 9, out: 'b Pravin'},
+          'Saumil Mehta': { balls:[0], '4s': 0, '6s': 0, total: 0, balls: 1, out: '(caught) b Shreyans'},
+          'Umang Bhavsar': { balls:[0], '4s': 0, '6s': 0, total: 0, balls: 1, out: '(caught) b Shreyans'},
+          'Navin Prajapati': { balls:[0,0], '4s': 0, '6s': 0, total: 0, balls: 2, out: '(top) b Jatin'}
+          },
+        extra: 0, wickets: 5,
+        totalScore: 3
       },
       bowling: {
-        team: 'goblin',
-        bowlers: ['Pravin Prajapati', 'Pathik Mehta', 'Ketul B Patel', 'Milan Chauhan', 'Parth Patel', 'Kewal Yadav'],
+        team: 'stars',
+        bowlers: ['Rajesh Jethva','Rushikesh Patel','Jignesh Patel','Shreyans Halani', 'Jatin Patel', 'Pravin Prajapati'],
         overs: {
-          'Parth Patel': {overs: 1, balls:[1,0,0,0,0,1], runs: 2, wickets:0}, 
-          'Ketul B Patel': {overs: 1, balls:[0,0,1,1,'WK',0], runs: 2, wickets:1},
-          'Pravin Prajapati': {overs: 1, balls:[0,0,1,1,'WK',0], runs: 2, wickets:0}, 
-          'Milan Chauhan': {overs: 1, balls:[0,'WK',0,0,1,1], runs: 2, wickets:0}, 
-          'Pathik Mehta': {overs: 1, balls:[0,1,1,0,0,0], runs: 2, wickets:0}, 
-          'Kewal Yadav': {overs: 0.4, balls:[0,'WD','WD',0,1,'WK'], runs: 3, wickets:1}
+          'Shreyans Halani': {overs: 1, balls:[0,0,0,'WK','WK','WK'], runs: 0, wickets:3}, 
+          'Jatin Patel': {overs: 1, balls:['WD',0,1,'WD',0,'WK',0,0], runs: 3, wickets:1},
+          'Pravin Prajapati': {overs: 1, balls:[0,0,0,0,'WK'], runs: 0, wickets:1},
+          'Jignesh Patel': {overs: 0, balls:[], runs: 0, wickets:0},
+          'Rajesh Jethva': {overs: 0, balls:[], runs: 0, wickets:0},
+          'Rushikesh Patel': {overs: 0, balls:[], runs: 0, wickets:0}
         },
         extra: 2,
-        oversBowled: 5.4
+        oversBowled: 2.5
       }
     },
     2: {
       batting: {
-        teamName: 'goblin',
-        players: ['Pravin Prajapati', 'Milan Chauhan', 'Pathik Mehta', 'Ketul B Patel'],
+        teamName: 'stars',
+        players: ['Rajesh Jethva','Pravin Prajapati'],
         score: {
-          'Parth Patel': { balls:[], '4s': 0, '6s': 0, total: 0, balls: 0},
-          'Ketul B Patel': { balls:[0,0,1,1], '4s': 0, '6s': 0, total: 2, balls: 4},
-          'Kewal Yadav': { balls:[], '4s': 0, '6s': 0, total: 0, balls: 0},
-          'Pathik Mehta': { balls:[0,0,0,1,1,0,0,1,0], '4s': 0, '6s': 0, total: 3, balls: 9, out: 'b Ankit Parikh'},
-          'Milan Chauhan': { balls:[1,0,0,0,1,0,1], '4s': 0, '6s': 0, total: 3, balls: 7},
-          'Pravin Prajapati': { balls:[0,0,1,1], '4s': 0, '6s': 0, total: 2, balls: 4, out: 'runout'}
+          'Rajesh Jethva': { balls:[1,1], '4s': 0, '6s': 0, total: 2, balls: 2},          
+          'Pravin Prajapati': { balls:[1,0,4], '4s': 1, '6s': 0, total: 5, balls: 2}
         },
-        extra: 4, wickets: 2,
-        totalScore: 14
+        extra: 0, wickets: 0,
+        totalScore: 7
       },
       bowling: {
         team: 'royal',
-        bowlers: ['Jaykishan Hirpara', 'Nirav Patel', 'Maulik B Patel', 'Ankit Parikh', 'Bhavin Hariyani', 'Dhaval Atri'],
+        bowlers: [ 'Tushar Patel', 'Navin Prajapati', 'Saumil Mehta', 'Dhaval Atri', 'Umang Bhavsar'],
         overs: {
-          'Jaykishan Hirpara': {overs: 1, balls:[0,0,1,1,1,'WK'], runs: 3, wickets:1}, 
-          'Nirav Patel': {overs: 1, balls:[0,0,0,1,'NB',0,0], runs: 2, wickets:0},
-          'Maulik B Patel': {overs: 1, balls:['WD',1,0,1,0,0,1], runs: 4, wickets:0}, 
-          'Ankit Parikh': {overs: 1, balls:[0,'WD','WD','WK',0,0,0,1], runs: 3, wickets:1}, 
-          'Bhavin Hariyani': {overs: 0.3, balls:[1,0,1], runs: 2, wickets:0}, 
-          'Dhaval Atri': {overs: 0, balls:[], runs: 0, wickets:0}
+          'Dhaval Atri': {overs: '0.5', balls:[1,1,1,0,4], runs: 7, wickets:0},
+          'Navin Prajapati': {overs: 0, balls:[], runs: 0, wickets:0},
+          'Saumil Mehta': {overs: 0, balls:[], runs: 0, wickets:0},
+          'Tushar Patel': {overs: 0, balls:[], runs: 0, wickets:0},
+          'Umang Bhavsar': {overs: 0, balls:[], runs: 0, wickets:0}
         },
-        extra: 4,
-        oversBowled: 4.3
+        extra: 0,
+        oversBowled: 0.5
       }
     }
   }

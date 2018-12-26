@@ -64,31 +64,31 @@ const results = {
       "winner": "knights",
       "margin": "4 wickets"
     }
-  }/*
+  },
   "t1.1": {
-    "tigers": {"runs": 25, "wickets": 6, "overs": 5.4 },
-    "spirit": {"runs": 33, "wickets": 4, "overs": 6 },
+    "spirit": {"runs": 35, "wickets": 4, "overs": 6 },
+    "tigers": {"runs": 17, "wickets": 5, "overs": 4 },    
     "result": {
       "winner": "spirit",
-      "margin": "8 runs"
+      "margin": "18 runs"
     }
   },
   "t1.2": {
-    "spirit": {"runs": 27, "wickets": 4, "overs": 5.4 },
-    "stars": {"runs": 26, "wickets": 5, "overs": 6 },
+    "spirit": {"runs": 43, "wickets": 4, "overs": 6 },
+    "stars": {"runs": 26, "wickets": 2, "overs": 6 },
     "result": {
       "winner": "spirit",
-      "margin": "2 wickets"
+      "margin": "17 runs"
     }
   },
   "t1.3": {
-    "tigers": {"runs": 13, "wickets": 6, "overs": 5.4 },
-    "stars": {"runs": 14, "wickets": 2, "overs": 4.3 },
+    "tigers": {"runs": 3, "wickets": 5, "overs": 2.5 },
+    "stars": {"runs": 7, "wickets": 0, "overs": 0.5 },
     "result": {
       "winner": "stars",
-      "margin": "4 wickets"
+      "margin": "6 wickets"
     }
-  },
+  }/*,
   "t2.1": {
     "phoenix": {"runs": 17, "wickets": 4, "overs": 6 },
     "eagles": {"runs": 39, "wickets": 4, "overs": 6 },

@@ -1,68 +1,67 @@
 export const t12 = {
-  teams: ['hawk', 'goblin'],
+  teams: ['spirit', 'stars'],
   toss: {
-    wonBy: 'goblin',
+    wonBy: 'spirit',
     selected: 'Batting'
   },
   innings: {
     1: {
       batting: {
-        teamName: 'goblin',
-        players: ['Ketul B Patel', 'Pathik Mehta', 'Pravin Prajapati', 'Parth Patel', 'Milan Chauhan', 'Kewal Yadav'],
+        teamName: 'spirit',
+        players: ['Kartik Patel', 'Viresh Shah', 'Avesh Gaji', 'Bhavin Vachani', 'Pradhyumn'],
         score: {
-          'Parth Patel': { balls:[0,0,0,6], '4s': 0, '6s': 1, total: 6, balls: 5, out: 'c Yogesh Patil b Ketul Patel'},
-          'Ketul B Patel': { balls:[1,1,0,0,0,0,0,1,0,1,1,4], '4s': 1, '6s': 0, total: 9, balls: 13, out: '(upper net) b Chintan Patel'},
-          'Kewal Yadav': { balls:[1], '4s': 0, '6s': 0, total: 1, balls: 1},
-          'Pathik Mehta': { balls:[0,0,0,1,1,0], '4s': 0, '6s': 0, total: 2, balls: 6, out: 'c Ketul Patel b Chintan Patel'},
-          'Milan Chauhan': { balls:[0,0,0,0], '4s': 0, '6s': 0, total: 0, balls: 5, out: 'b Rahul Joshi'},
-          'Pravin Prajapati': { balls:[0,4,1], '4s': 1, '6s': 0, total: 5, balls: 3, out: 'b Rahul Joshi'}
+          'Kartik Patel': { balls:[0,0,1,0,1,1,0,8,1,1,0,1,1,0], '4s': 1, '6s': 0, total: 15, balls: 14, out: 'b Jignesh'},
+          'Viresh Shah': { balls:[0,0,1,0], '4s': 0, '6s': 0, total: 1, balls: 4, out: '(top) b Pravin'},
+          'Avesh Gaji': { balls:[0,0,1,1,0,1,1,0], '4s': 0, '6s': 0, total: 4, balls: 8, out: 'b Jignesh'},
+          'Bhavin Vachani': { balls:[1,6,6,0], '4s': 0, '6s': 2, total: 13, balls: 4},
+          'Pradhyumn': { balls:[6,1,0,0,1,0], '4s': 0, '6s': 1, total: 8, balls: 6, out: 'runout (Rajesh)'}    
         },
-        extra: 3, wickets: 5,
-        totalScore: 26
+        extra: 2, wickets: 4,
+        totalScore: 43
       },
       bowling: {
-        team: 'hawk',
-        bowlers: ['Yogesh Patil', 'Rajesh Jethva', 'Nishith Patel', 'Chintan Patel', 'Rahul Joshi', 'Ketul Patel'],
+        team: 'stars',
+        bowlers: ['Rajesh Jethva','Rushikesh Patel','Jignesh Patel','Shreyans Halani', 'Jatin Patel', 'Pravin Prajapati'],
         overs: {
-          'Yogesh Patil': {overs: 1, balls:[1,0,0,0,1,1], runs: 3, wickets:0}, 
-          'Rajesh Jethva': {overs: 1, balls:['WD',0,0,0,0,0,1], runs: 2, wickets:0},
-          'Chintan Patel': {overs: 1, balls:[4,'WK',0,4,1,'WK'], runs: 9, wickets:2}, 
-          'Nishith Patel': {overs: 1, balls:[0,1,'WD',1,'WD',1,0,0], runs: 5, wickets:0}, 
-          'Rahul Joshi': {overs: 1, balls:['WK',0,0,0,0,'WK'], runs: 0, wickets:2}, 
-          'Ketul Patel': {overs: 1, balls:[0,0,0,6,'WK',1], runs: 7, wickets:1}
+          'Shreyans Halani': {overs: 1, balls:[0,0,1,0,0,1], runs: 1, wickets:0}, 
+          'Pravin Prajapati': {overs: 1, balls:['WK',0,0,1,'NB',0,1], runs: 3, wickets:1},
+          'Rushikesh Patel': {overs: 1, balls:[1,1,0,8,1,0], runs: 11, wickets:0},
+          'Rajesh Jethva': {overs: 1, balls:[1,1,0,1,1,1], runs: 5, wickets:0},
+          'Jignesh Patel': {overs: 1, balls:['WK','WD',1,'WK',6,1,6], runs: 15, wickets:2},
+          'Jatin Patel': {overs: 1, balls:[0,0,1,6,0,'WK'], runs: 7, wickets:0}          
         },
-        extra: 3,
+        extra: 2,
         oversBowled: 6
       }
     },
     2: {
       batting: {
-        teamName: 'hawk',
-        players: ['Rahul Joshi', 'Rajesh Jethva', 'Nishith Patel', 'Yogesh Patil', 'Chintan Patel', 'Ketul Patel'],
+        teamName: 'stars',
+        players: ['Rajesh Jethva','Rushikesh Patel','Jignesh Patel','Shreyans Halani', 'Jatin Patel', 'Pravin Prajapati'],
         score: {
-          'Rajesh Jethva': { balls:[1,0,0,0,0,1,1,1,0,0,1,1], '4s': 0, '6s': 0, total: 6, balls: 13, out: '(uppernet) b Milan Chauhan'},
-          'Chintan Patel': { balls:[0,0,0,1], '4s': 0, '6s': 0, total: 1, balls: 5, out: 'b Kewal Yadav'},
-          'Yogesh Patil': { balls:[1,0,1,1,1,1], '4s': 0, '6s': 0, total: 5, balls: 6},
-          'Nishith Patel': { balls:[1,1], '4s': 0, '6s': 0, total: 2, balls: 3, out: 'runout (Ketul B Patel)'},
-          'Ketul Patel': { balls:[1], '4s': 0, '6s': 0, total: 1, balls: 1},
-          'Rahul Joshi': { balls:[1,0,1,4,1], '4s': 1, '6s': 0, total: 7, balls: 6, out: 'runout (Ketul B Patel)'}
+          'Pravin Prajapati': { balls:[0,'WK'], '4s': 0, '6s': 0, total: 0, balls: 2, out : 'runout (Kartik Patel)'},
+          'Shreyans Halani': { balls:[0,0,1,1,0,0,0,0,1,1,0,0,1,0,1,1], '4s': 0, '6s': 0, total: 7, balls: 16},    
+          'Rajesh Jethva': { balls:[1,1,1,1,1,0,0,0], '4s': 0, '6s': 0, total: 5, balls: 8, out : '(upper) b Bhavin'},          
+          'Rushikesh Patel': { balls:[6,0,0,0,0,1,1,0,1,1], '4s': 0, '6s': 1, total: 10, balls: 10},
+          'Jatin Patel': { balls:[], '4s': 0, '6s': 0, total: 0, balls: 0},
+          'Jignesh Patel': { balls:[], '4s': 0, '6s': 0, total: 0, balls: 0}
         },
-        extra: 5, wickets: 4,
-        totalScore: 27
+        extra: 3, wickets: 2,
+        totalScore: 26
       },
       bowling: {
-        team: 'goblin',
-        bowlers: ['Pravin Prajapati', 'Pathik Mehta', 'Parth Patel', 'Ketul B Patel', 'Milan Chauhan', 'Kewal Yadav'],
+        team: 'spirit',
+        bowlers: ['Viresh Shah', 'Avesh Gaji', 'Kartik Patel 1','Kartik Patel 2', 'Bhavin Vachani','Pradhyumn'],
         overs: {
-          'Parth Patel': {overs: 1, balls:['WD',1,1,1,'WK',0,0], runs: 4, wickets:1}, 
-          'Ketul B Patel': {overs: 1, balls:[1,1,0,1,1,1], runs: 5, wickets:0},
-          'Pravin Prajapati': {overs: 1, balls:[1,1,0,1,0,'NB','WD',0], runs: 5, wickets:0}, 
-          'Milan Chauhan': {overs: 1, balls:[1,'WK',0,0,0,1], runs: 2, wickets:1}, 
-          'Pathik Mehta': {overs: 1, balls:[4,1,'WD',0,'WK',1,1], runs: 8, wickets:0}, 
-          'Kewal Yadav': {overs: 0.4, balls:['WK',1,'WD',1], runs: 3, wickets:1}
+          'Kartik Patel 1': {overs: 1, balls:[0,'WK',1,1,0,0], runs: 2, wickets:0},
+          'Viresh Shah': {overs: 1, balls:[1,1,0,0,0,0], runs: 2, wickets:0}, 
+          'Avesh Gaji': {overs: 1, balls:[1,1,1,1,1,0], runs: 5, wickets:0},
+          'Bhavin Vachani': {overs: 1, balls:[0,0,'WK','WD',6,0,0], runs: 7, wickets:1},
+          'Pradhyumn': {overs: 1, balls:[0,1,'NB',0,'WD',0,0,1], runs: 5, wickets:0},           
+          'Kartik Patel 2': {overs: 1, balls:[1,1,0,1,1,1], runs: 5, wickets:0},
         },
-        extra: 5,
-        oversBowled: 5.4
+        extra: 3,
+        oversBowled: 6
       }
     }
   }

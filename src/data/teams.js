@@ -91,7 +91,7 @@ const teams = {
       'Ketul M Patel',
       'Chirag Prajapati',
       'Aleef Gandluru',
-      'Abhishek Sharma',
+      'Abhishek Varma',
       'Maulik M Patel'
     ]
   },

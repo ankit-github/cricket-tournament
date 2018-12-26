@@ -1,68 +1,64 @@
 export const t11 = {
-  teams: [ 'royal', 'hawk'],
+  teams: [ 'spirit', 'tigers'],
   toss: {
-    wonBy: 'hawk',
+    wonBy: 'spirit',
     selected: 'Batting'
   },
   innings: {
     1: {
       batting: {
-        teamName: 'hawk',
-        players: ['Rajesh Jethva', 'Chintan Patel', 'Yogesh Patil', 'Nishith Patel', 'Ketul Patel', 'Rahul Joshi'],
+        teamName: 'spirit',
+        players: ['Kartik Patel', 'Viresh Shah', 'Avesh Gaji', 'Bhavin Vachani', 'Pradhyumn'],
         score: {
-          'Rajesh Jethva': { balls:[0,0,1,0,0,1,0], '4s': 0, '6s': 0, total: 2, balls: 8, out: 'runout'},
-          'Chintan Patel': { balls:[0,0,1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,1,1], '4s': 0, '6s': 0, total: 8, balls: 19},
-          'Yogesh Patil': { balls:[0,1,1], '4s': 0, '6s': 0, total: 2, balls: 3, out: 'runout'},
-          'Nishith Patel': { balls:[1], '4s': 0, '6s': 0, total: 1, balls: 1, out: 'runout'},
-          'Ketul Patel': { balls:[1,0,4,1], '4s': 1, '6s': 0, total: 6, balls: 5, out: 'b Bhavin'},
-          'Rahul Joshi': { balls:[6,1,1], '4s': 0, '6s': 1, total: 8, balls: 3}
+          'Kartik Patel': { balls:[0,1,0], '4s': 0, '6s': 0, total: 1, balls: 3, out: 'runout'},
+          'Viresh Shah': { balls:[0,0,1,4,1,0], '4s': 1, '6s': 0, total: 6, balls: 6, out: 'runout'},
+          'Avesh Gaji': { balls:[0,1,4,0,0], '4s': 1, '6s': 0, total: 5, balls: 5, out: 'b Dhaval'},
+          'Bhavin Vachani': { balls:[0,0,1,0,1,0,1,2,1,4,1,0,1,1,0,1,0,0,2], '4s': 1, '6s': 0, total: 16, balls: 19, out: ''},
+          'Pradhyumn': { balls:[1,1,1,0], '4s': 0, '6s': 0, total: 3, balls: 4, out: '(upper cut) b Dhaval'}          
         },
         extra: 6, wickets: 4,
-        totalScore: 33
+        totalScore: 35
       },
       bowling: {
-        team: 'royal',
-        bowlers: ['Jaykishan Hirpara', 'Nirav Patel', 'Maulik B Patel', 'Ankit Parikh', 'Bhavin Hariyani', 'Dhaval Atri'],
+        team: 'tigers',
+        bowlers: ['Tushar Patel', 'Navin Prajapati', 'Saumil Mehta', 'Dhaval Atri 1','Dhaval Atri 2', 'Umang Bhavsar'],
         overs: {
-          'Jaykishan Hirpara': {overs: 1, balls:[0,0,1,0,'WD',0,1], runs: 3, wickets:0}, 
-          'Nirav Patel': {overs: 1, balls:[0,'WD',0,'1NB',0,0,1,0 ], runs: 4, wickets:0},
-          'Maulik B Patel': {overs: 1, balls:['NB',0,'WK',0,1,0,1], runs: 3, wickets:0}, 
-          'Ankit Parikh': {overs: 1, balls:[1,'WK',0,'WD',1,1,'WK'], runs: 4, wickets:0}, 
-          'Bhavin Hariyani': {overs: 1, balls:[1,'WD',1,0,4,1,'WD',1,'WK'], runs: 10, wickets:1}, 
-          'Dhaval Atri': {overs: 1, balls:[0,1,6,1,1,1], runs: 10, wickets:0}
+          'Tushar Patel': {overs: 1, balls:[0,1,'WK',0,1,0], runs: 2, wickets:0}, 
+          'Dhaval Atri 1': {overs: 1, balls:[4,0,'WK',0,0,1 ], runs: 5, wickets:1},
+          'Umang Bhavsar': {overs: 1, balls:[0,1,0,1,0,1], runs: 3, wickets:0}, 
+          'Navin Prajapati': {overs: 1, balls:[2,'WD',1,4,1,4,1], runs: 14, wickets:0}, 
+          'Saumil Mehta': {overs: 1, balls:['WD','WD',0,1,'1NB',1,1,1,0], runs: 8, wickets:0}, 
+          'Dhaval Atri 2': {overs: 1, balls:[1,1,'WK',0,0,2], runs: 4, wickets:1}
         },
-        extra: 6,
+        extra: 4,
         oversBowled: 6
       }
     },
     2: {
       batting: {
-        teamName: 'royal',
-        players: ['Maulik B Patel', 'Dhaval Atri', 'Bhavin Hariyani', 'Ankit Parikh', 'Jaykishan Hirpara', 'Nirav Patel'],
+        teamName: 'tigers',
+        players: ['Tushar Patel', 'Navin Prajapati', 'Saumil Mehta', 'Dhaval Atri', 'Umang Bhavsar'],
         score: {
-          'Maulik B Patel': { balls:[0,0,1,0,1,0,1], '4s': 0, '6s': 0, total: 3, balls: 7, out: 'runout'},
-          'Dhaval Atri': { balls:[0,0,6,1,1,1,1,0,0], '4s': 0, '6s': 1, total: 10, balls: 9, out: 'b Nishith Patel'},
-          'Bhavin Hariyani': { balls:[0,0,1], '4s': 0, '6s': 0, total: 1, balls: 3, out: 'runout'},
-          'Ankit Parikh': { balls:[1,1,1,1], '4s': 0, '6s': 0, total: 4, balls: 4, out: 'runout'},
-          'Jaykishan Hirpara': { balls:[1,0,0,1], '4s': 0, '6s': 0, total: 2, balls: 4, out: 'b Ketul Patel'},
-          'Nirav Patel': { balls:[1], '4s': 0, '6s': 0, total: 1, balls: 1, out: 'b Ketul Patel'}
+          'Tushar Patel': { balls:[0,0,1,0,1,0,1], '4s': 0, '6s': 0, total: 3, balls: 7, out: '(top) b Viresh'},
+          'Navin Prajapati': { balls:[1,1,0,0,0,0,1,0,1,0,1,0], '4s': 0, '6s': 0, total: 5, balls: 12, out: 'runout'},
+          'Saumil Mehta': { balls:[1,1,0,0], '4s': 0, '6s': 0, total: 2, balls: 4, out: '(top) b Avesh'},
+          'Dhaval Atri': { balls:[0,4,0,3,1,0], '4s': 1, '6s': 0, total: 8, balls: 5, out: 'runout'},
+          'Umang Bhavsar': { balls:[1,0], '4s': 0, '6s': 0, total: 1, balls: 2, out: 'runout'}
         },
-        extra: 4, wickets: 6,
-        totalScore: 25
+        extra: 1, wickets: 6,
+        totalScore: 17
       },
       bowling: {
-        team: 'hawk',
-        bowlers: ['Yogesh Patil', 'Rajesh Jethva', 'Chintan Patel', 'Nishith Patel', 'Rahul Joshi', 'Ketul Patel'],
+        team: 'spirit',
+        bowlers: ['Viresh Shah', 'Avesh Gaji', 'Kartik Patel', 'Bhavin Vachani'],
         overs: {
-          'Yogesh Patil': {overs: 1, balls:[0,0,1,0,0,6], runs: 7, wickets:0}, 
-          'Rajesh Jethva': {overs: 1, balls:['WD',0,1,1,0,1,1], runs: 5, wickets:0},
-          'Chintan Patel': {overs: 1, balls:[1,1,'WK',0,0,0], runs: 2, wickets:0}, 
-          'Nishith Patel': {overs: 1, balls:[0,0,1,'WK','1WK',1], runs: 3, wickets:1}, 
-          'Rahul Joshi': {overs: 1, balls:[1,'WD',1,1,0,0,'WK'], runs: 4, wickets:0}, 
-          'Ketul Patel': {overs: 0.4, balls:[1,1,'WK','WK'], runs: 2, wickets:2}
+          'Viresh Shah': {overs: 1, balls:[1,1,'WK','WD',1,1,1], runs: 6, wickets:1}, 
+          'Avesh Gaji': {overs: 1, balls:[0,'WK',0,4,0,3], runs: 7, wickets:1},
+          'Kartik Patel': {overs: 1, balls:['1WK',1,'WK',0,0,0], runs: 2, wickets:0}, 
+          'Bhavin Vachani': {overs: 1, balls:[1,0,1,0,1,'WK'], runs: 3, wickets:0}
         },
-        extra: 6,
-        oversBowled: 5.4
+        extra: 1,
+        oversBowled: 4
       }
     }
   }
