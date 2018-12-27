@@ -88,31 +88,31 @@ const results = {
       "winner": "stars",
       "margin": "6 wickets"
     }
-  }/*,
+  },
   "t2.1": {
-    "phoenix": {"runs": 17, "wickets": 4, "overs": 6 },
-    "eagles": {"runs": 39, "wickets": 4, "overs": 6 },
+    "phoenix": {"runs": 24, "wickets": 5, "overs": 6 },
+    "eagles": {"runs": 25, "wickets": 3, "overs": 3.4 },
     "result": {
       "winner": "eagles",
-      "margin": "22 runs"
-    }
-  },
-  "t2.2": {
-    "phoenix": {"runs": 15, "wickets": 6, "overs": 4.3 },
-    "knights": {"runs": 21, "wickets": 3, "overs": 5.2 },
-    "result": {
-      "winner": "knights",
       "margin": "3 wickets"
     }
   },
+  "t2.2": {
+    "phoenix": {"runs": 20, "wickets": 6, "overs": 5 },
+    "knights": {"runs": 38, "wickets": 2, "overs": 6 },
+    "result": {
+      "winner": "knights",
+      "margin": "18 runs"
+    }
+  },
   "t2.3": {
-    "eagles": {"runs": 27, "wickets": 2, "overs": 3.4 },
-    "knights": {"runs": 26, "wickets": 5, "overs": 6 },
+    "eagles": {"runs": 23, "wickets": 4, "overs": 6 },
+    "knights": {"runs": 12, "wickets": 6, "overs": 5.1 },
     "result": {
       "winner": "eagles",
-      "margin": "4 wickets"
+      "margin": "11 runs"
     }
-  }*/
+  }
 };
 
 const matches = {};

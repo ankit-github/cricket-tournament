@@ -41,9 +41,9 @@ const data = {
       "date": "Day 3 - Thrusday, 27 December, 2018",
       "teams": ["smashers", "birds", "Winner of Semi - 1", "Winner of Semi - 2"],
       "matches": [
-        { "matchNo": 1, "matchName": "Qualifier 1", "teams": [], "time": "7:00 PM"},
+        { "matchNo": 1, "matchName": "Qualifier 1", "teams": ["spirit","knights"], "time": "7:00 PM"},
         { "matchNo": 2, "teams": ["smashers", "birds" ], "time": "7:20 PM"},
-        { "matchNo": 3, "matchName": "Qualifier 2", "teams": [], "time": "7:50 PM"},
+        { "matchNo": 3, "matchName": "Qualifier 2", "teams": ["eagles","stars"], "time": "7:50 PM"},
         { "matchNo": 4, "teams": ["smashers", "birds" ], "time": "8:20 PM"},
         { "matchNo": 5, "matchName": "Final", "teams": [], "time": "8:40 PM"}
       ]

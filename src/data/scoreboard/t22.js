@@ -1,68 +1,68 @@
 export const t22 = {
-  teams: ['slingers', 'musketeers'],
+  teams: ['phoenix', 'knights'],
   toss: {
-    wonBy: 'slingers',
-    selected: 'Batting'
+    wonBy: 'phoenix',
+    selected: 'Bowling'
   },
   innings: {
     1: {
       batting: {
-        teamName: 'slingers',
-        players: ['Umang Bhavsar', 'Kishan Patel', 'Bhavin Vachhani', 'Sagar Gohil', 'Divyang Gholaviya', 'Suresh Prajapati'],
+        teamName: 'knights',
+        players: [ 'Parth Patel','Ketul M Patel','Chirag Prajapati','Aleef Gandluru','Abhishek Varma','Maulik M Patel'],
         score: {
-          'Umang Bhavsar': { balls:[0,1,0,0,0,1,0,0,0,1,0,0,0,4,0], '4s': 1, '6s': 0, total: 7, balls: 16, out: '(uppernet) b Janak Patel'},
-          'Bhavin Vachhani': { balls:[1,1], '4s': 0, '6s': 0, total: 2, balls: 3, out: 'c b Rushikesh Patel'},
-          'Divyang Gholaviya': { balls:[], '4s': 0, '6s': 0, total: 0, balls: 1, out: 'c Jignesh Yadav b Janak Patel'},
-          'Kishan Patel': { balls:[], '4s': 0, '6s': 0, total: 0, balls: 1, out: 'runout'},
-          'Sagar Gohil': { balls:[1,0,1,1], '4s': 0, '6s': 0, total: 4, balls: 5, out: 'runout (Jignesh Yadav)'},
-          'Suresh Prajapati': { balls:[], '4s': 0, '6s': 0, total: 0, balls: 1, out: 'b Janak Patel'}
+          'Aleef Gandluru': { balls:[0,1,0,0,0], '4s': 0, '6s': 0, total: 7, balls: 12, out: '(runout)'},
+          'Ketul M Patel': { balls:[0,1,1,1,1,0,1,0,0], '4s': 0, '6s': 0, total: 6, balls: 10, out: '(bowled) b Janak'},
+          'Abhishek Varma': { balls:[1,0], '4s': 0, '6s': 0, total: 19, balls: 9, out: '(uppernet) b Sagar'},
+          'Parth Patel': { balls:[1,0], '4s': 0, '6s': 0, total: 3, balls: 4, out: ''},
+          'Chirag Prajapati': { balls:[1,0,0,1,0,0,0,0,0,0], '4s': 0, '6s': 0, total: 2, balls: 1, out: ''},
+          'Maulik M Patel': { balls:[1,0], '4s': 0, '6s': 0, total: 1, balls: 2, out: '(uppernet) b Chirag'}
         },
-        extra: 1, wickets: 6,
-        totalScore: 15
+        extra: 0, wickets: 3,
+        totalScore: 38
       },
       bowling: {
-        team: 'musketeers',
-        bowlers: ['Jaydeep Kamani', 'Shreyansh Halani', 'Rushikesh Patel', 'Jignesh Yadav', 'Janak Patel'],
+        team: 'phoenix',
+        bowlers: ['Milan Chauhan','Ketul B Patel','Janak Patel','Sagar Gohil','Subodh Kumar','Gaurang Parmar'],
         overs: {
-          'Janak Patel': {overs: 0.3, balls:['WK','WK','WK'], runs: 0, wickets:3}, 
-          'Jaydeep Kamani': {overs: 1, balls:[0,1,'WK',0,0,0], runs: 1, wickets:1}, 
-          'Rushikesh Patel': {overs: 1, balls:[0,1,1,0,'WD',1,0], runs: 4, wickets:0}, 
-          'Milan Kamboya': {overs: 0, balls:[], runs: 0, wickets:0}, 
-          'Shreyansh Halani': {overs: 1, balls:[1,1,'WD',1,0,0,0], runs: 4, wickets:0}, 
-          'Jignesh Yadav': {overs: 1, balls:[1,0,'WD',0,4,0,'WK'], runs: 6, wickets:0}
+          'Ketul B Patel': {overs: 0, balls:[1,0,1,0,'WK',1], runs: 6, wickets:0}, 
+          'Milan Chauhan': {overs: 1, balls:[1,1,1,1,1,1], runs: 3, wickets:0}, 
+          'Janak Patel': {overs: 1, balls:[0,0,'WK',0,1,1], runs: 3, wickets:1}, 
+          'Gaurang Parmar': {overs: 1, balls:[0,0,1,0,0,1], runs: 11, wickets:0},
+          'Subodh Kumar': {overs: 1, balls:[0,'NB',1,'WK',0,'WK',0], runs: 10, wickets:1}, 
+          'Sagar Gohil': {overs: 0, balls:[0,0,0,1,0,'WD',0], runs: 5, wickets:0} 
         },
-        extra: 3,
-        oversBowled: 4.3
+        extra: 0,
+        oversBowled: 6
       }
     },
     2: {
       batting: {
-        teamName: 'musketeers',
-        players: ['Janak Patel', 'Milan Kamboya', 'Shreyansh Halani', 'Jignesh Yadav', 'Jaydeep Kamani'],
+        teamName: 'phoenix',
+        players: ['Milan Chauhan','Ketul B Patel','Janak Patel','Sagar Gohil','Subodh Kumar','Gaurang Parmar'],
         score: {
-          'Janak Patel': { balls:[0,0,0], '4s': 0, '6s': 0, total: 0, balls: 4, out: 'st Suresh Prajapati b Sagar Gohil'},
-          'Jaydeep Kamani': { balls:[0,6], '4s': 0, '6s': 1, total: 6, balls: 2, out: ''},
-          'Jignesh Yadav': { balls:[1,0,1,1,1], '4s': 0, '6s': 0, total: 4, balls: 5, out: ''},
-          'Milan Kamboya': { balls:[0,0,0,0,1,1,0,0,0], '4s': 0, '6s': 0, total: 2, balls: 9, out: 'b Umang Bhavsar'},
-          'Shreyansh Halani': { balls:[0,1,1,1,0,1,0,0,0,1], '4s': 0, '6s': 0, total: 5, balls: 10, out: '(uppernet) b Suresh Prajapati'},
-          'Rushikesh Patel': { balls:[], '4s': 0, '6s': 0, total: 0, balls: 0, out: ''}
+          'Janak Patel': { balls:[0,1,0,1,1], '4s': 0, '6s': 0, total: 1, balls: 3, out: '(bowled) b Maulik'},
+          'Sagar Gohil': { balls:[1,0,0,4,0,0], '4s': 0, '6s': 0, total: 1, balls: 2, out: '(runout)'},
+          'Milan Chauhan': { balls:[1,1,0,0,1,1,4], '4s': 0, '6s': 0, total: 9, balls: 11, out: '(bowled) b Aleef'},
+          'Ketul B Patel': { balls:[0,0,0,1,0,0,0,1,8], '4s': 1, '6s': 0, total: 2, balls: 6, out: '(uppernet) b Aleef'},
+          'Gaurang Parmar': { balls:[1,0,1,1,4], '4s': 0, '6s': 0, total: 1, balls: 5, out: 'c Ketul b Abhishek'},
+          'Subodh Kumar': { balls:[], '4s': 0, '6s': 0, total: 2, balls: 3, out: 'c Aleef b Abhishek'}
         },
-        extra: 4, wickets: 3,
-        totalScore: 21
+        extra: 3, wickets: 6,
+        totalScore: 20
       },
       bowling: {
-        team: 'slingers',
-        bowlers: ['Sagar Gohil', 'Kishan Patel', 'Umang Bhavsar', 'Bhavin Vachhani', 'Suresh Prajapati', 'Divyang Gholaviya'],
+        team: 'knights',
+        bowlers: [ 'Parth Patel','Ketul M Patel','Chirag Prajapati','Aleef Gandluru','Abhishek Varma','Maulik M Patel'],
         overs: {
-          'Umang Bhavsar': {overs: 1, balls:['WD',1,1,0,0,0,'WK'], runs: 3, wickets:1}, 
-          'Bhavin Vachhani': {overs: 1, balls:[0,1,'WD',1,0,0,0], runs: 3, wickets:0}, 
-          'Divyang Gholaviya': {overs: 0.2, balls:[1,6], runs: 7, wickets:0}, 
-          'Kishan Patel': {overs: 1, balls:[1,0,'WD',0,0,0,1], runs: 3, wickets:0}, 
-          'Sagar Gohil': {overs: 1, balls:[0,0,0,'WK',0,'NB',1], runs: 2, wickets:1}, 
-          'Suresh Prajapati': {overs: 1, balls:[0,1,1,1,'WK',0], runs: 3, wickets:1}
+          'Maulik M Patel': {overs: 1, balls:[0,1,'WK',1,'WK',0], runs: 3, wickets:1}, 
+          'Chirag Prajapati': {overs: 1, balls:['WD',1,1,0,'WK',0,'WD',0], runs: 10, wickets:0}, 
+          'Parth Patel': {overs: 1, balls:[0,1,0,0,'WK',0], runs: 0, wickets:0}, 
+          'Aleef Gandluru': {overs: 1, balls:[1,0,1,1,1,0], runs: 2, wickets:2},
+          'Abhishek Varma': {overs: 1, balls:[0,0,4,1,1,0], runs: 5, wickets:2}, 
+          'Ketul M Patel': {overs: 0, balls:['WD','WD','WD',1,0,0,1,0,1], runs: 0, wickets:0}
         },
         extra: 4,
-        oversBowled: 5.2
+        oversBowled: 5
       }
     }
   }
