@@ -24,12 +24,12 @@ export const t22 = {
         team: 'phoenix',
         bowlers: ['Milan Chauhan','Ketul B Patel','Janak Patel','Sagar Gohil','Subodh Kumar','Gaurang Parmar'],
         overs: {
-          'Ketul B Patel': {overs: 0, balls:[1,0,1,0,'WK',1], runs: 6, wickets:0}, 
+          'Ketul B Patel': {overs: 1, balls:[1,0,1,0,'WK',1], runs: 6, wickets:0}, 
           'Milan Chauhan': {overs: 1, balls:[1,1,1,1,1,1], runs: 3, wickets:0}, 
           'Janak Patel': {overs: 1, balls:[0,0,'WK',0,1,1], runs: 3, wickets:1}, 
           'Gaurang Parmar': {overs: 1, balls:[0,0,1,0,0,1], runs: 11, wickets:0},
           'Subodh Kumar': {overs: 1, balls:[0,'NB',1,'WK',0,'WK',0], runs: 10, wickets:1}, 
-          'Sagar Gohil': {overs: 0, balls:[0,0,0,1,0,'WD',0], runs: 5, wickets:0} 
+          'Sagar Gohil': {overs: 1, balls:[0,0,0,1,0,'WD',0], runs: 5, wickets:0} 
         },
         extra: 0,
         oversBowled: 6

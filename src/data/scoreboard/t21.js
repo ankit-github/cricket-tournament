@@ -57,7 +57,7 @@ export const t21 = {
           'Milan Chauhan': {overs: 1, balls:[1,1,1,1,1,1], runs: 4, wickets:1}, 
           'Janak Patel': {overs: 1, balls:[0,0,'WK',0,1,1], runs: 5, wickets:1}, 
           'Subodh Kumar': {overs: 1, balls:[0,'NB',1,'WK',0,'WK',0], runs: 8, wickets:1}, 
-          'Gaurang Parmar': {overs: 1, balls:[0,0,1,0,0,1], runs: 8, wickets:0},
+          'Gaurang Parmar': {overs: 0.4, balls:[0,0,1,0,0,1], runs: 8, wickets:0},
           'Ketul B Patel': {overs: 0, balls:[1,0,1,0,'WK',1], runs: 0, wickets:0}, 
           'Sagar Gohil': {overs: 0, balls:[0,0,0,1,0,'WD',0], runs: 0, wickets:0} 
         },

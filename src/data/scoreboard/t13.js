@@ -25,7 +25,7 @@ export const t13 = {
         overs: {
           'Shreyans Halani': {overs: 1, balls:[0,0,0,'WK','WK','WK'], runs: 0, wickets:3}, 
           'Jatin Patel': {overs: 1, balls:['WD',0,1,'WD',0,'WK',0,0], runs: 3, wickets:1},
-          'Pravin Prajapati': {overs: 1, balls:[0,0,0,0,'WK'], runs: 0, wickets:1},
+          'Pravin Prajapati': {overs: 0.5, balls:[0,0,0,0,'WK'], runs: 0, wickets:1},
           'Jignesh Patel': {overs: 0, balls:[], runs: 0, wickets:0},
           'Rajesh Jethva': {overs: 0, balls:[], runs: 0, wickets:0},
           'Rushikesh Patel': {overs: 0, balls:[], runs: 0, wickets:0}
