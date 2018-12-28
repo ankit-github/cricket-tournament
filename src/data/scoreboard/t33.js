@@ -28,7 +28,7 @@ export const t33 = {
           'Chintan Patel': {overs: 1, balls:[0,1,0,1,1,0], runs: 7, wickets:0}, 
           'Rahul Joshi': {overs: 0, balls:[6,1,1,'WD',1], runs: 0, wickets:0}, 
           'Bhavesh Lakhani': {overs: 1, balls:[4,1,'WD',0,0,1,1], runs: 1, wickets:0}, 
-          'Ashish Sangani': {overs: 0.1, balls:[1,1,1,'WD',1,1,1], runs: 8, wickets:1}
+          'Ashish Sangani': {overs: 1, balls:[1,1,1,'WD',1,1,1], runs: 8, wickets:1}
         },
         extra: 5,
         oversBowled: 5
