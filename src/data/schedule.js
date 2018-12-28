@@ -45,7 +45,7 @@ const data = {
         { "matchNo": 2, "teams": ["smashers", "birds" ], "time": "7:20 PM"},
         { "matchNo": 3, "matchName": "Qualifier 2", "teams": ["eagles","stars"], "time": "7:50 PM"},
         { "matchNo": 4, "teams": ["smashers", "birds" ], "time": "8:20 PM"},
-        { "matchNo": 5, "matchName": "Final", "teams": [], "time": "8:40 PM"}
+        { "matchNo": 5, "matchName": "Final", "teams": ['eagles', 'knights'], "time": "8:40 PM"}
       ]
     }]
   }

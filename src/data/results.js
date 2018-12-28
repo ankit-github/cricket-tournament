@@ -112,6 +112,46 @@ const results = {
       "winner": "eagles",
       "margin": "11 runs"
     }
+  },
+  "t3.1": {
+    "spirit": {"runs": 26, "wickets": 6, "overs": 6 },
+    "knights": {"runs": 26, "wickets": 3, "overs": 6 },
+    "result": {
+      "winner": "knights",
+      "margin": " win by super over. Team Spirit (3/1), Knights (4/0)"
+    }
+  },
+  "t3.2": {
+    "birds": {"runs": 21, "wickets": 3, "overs": 5 },
+    "smashers": {"runs": 23, "wickets": 2, "overs": 4.4 },
+    "result": {
+      "winner": "smashers",
+      "margin": "3 wickets"
+    }
+  },
+  "t3.3": {
+    "eagles": {"runs": 20, "wickets": 0, "overs": 3.4 },
+    "stars": {"runs": 19, "wickets": 5, "overs": 5 },
+    "result": {
+      "winner": "eagles",
+      "margin": "6 wickets"
+    }
+  },
+  "t3.4": {
+    "birds": {"runs": 20, "wickets": 2, "overs": 5 },
+    "smashers": {"runs": 23, "wickets": 1, "overs": 1.5 },
+    "result": {
+      "winner": "smashers",
+      "margin": "4 wickets"
+    }
+  },
+  "t3.5": {
+    "knights": {"runs": 30, "wickets": 3, "overs": 5.2 },
+    "eagles": {"runs": 29, "wickets": 6, "overs": 5.2 },
+    "result": {
+      "winner": "knights",
+      "margin": "3 wickets"
+    }
   }
 };
 

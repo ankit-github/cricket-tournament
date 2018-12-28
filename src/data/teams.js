@@ -104,7 +104,7 @@ const teams = {
     group: 'G',
     players: [
       'Divya Borad',
-      'Ruhi Bhavsar',
+      'Niyati Shah',
       'Hetal Shah',
       'Neha Dhandhukiya',
       'Prajeesha Pillai'
