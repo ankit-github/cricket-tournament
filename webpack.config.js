@@ -32,8 +32,10 @@ module.exports = {
     })
   ],
   devServer: {
+    clientLogLevel: 'info',
     contentBase: './dist',
     disableHostCheck: true,
-    port: 8080
+    port: 80,
+    host: '0.0.0.0'
   },
 };
