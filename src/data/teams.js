@@ -1,7 +1,7 @@
 const teams = {
-  'tigers': {
-    name: 'Dhansu Tigers',
-    image: './images/teams/DhasuTigers1.png',
+  'mojila': {
+    name: '6 Mojila',
+    image: './images/teams/6Mojila.png',
     thumbnilSize: { height: '90px', width: '80px'},
     mediumSize: { height: '180px', width: '160px'},
     captain: 'Dhaval Atri',
