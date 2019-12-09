@@ -64,7 +64,7 @@ const teams = {
     ]
   }, 
   'beagles': {
-    name: 'Phoenix',
+    name: 'Eagles',
     image: './images/teams/Eagles.png',
     thumbnilSize: { height: '90px', width: '90px'},
     mediumSize: { height: '180px', width: '180px'},
