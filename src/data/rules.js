@@ -1,6 +1,14 @@
 const rules = {
   areas:[
     {
+      name: "Bonus Over",
+      rules: [
+        "Before toss, both captains will inform which over of their batting innings will be bonus over",
+        "In bonus over, run scored by batting team will be doubled",
+        "After umpire declare current over as bonus over and bowler reach at bowling side, bowling side captain cannot change that bowler"
+      ]
+    },
+    {
       name: "Scoring",
       rules: [
         "Batsman can run for score only after ball touches with bat. No bye runs.",

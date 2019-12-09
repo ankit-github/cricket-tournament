@@ -17,7 +17,7 @@ const Home = (props) => (
     </Box>
     <Box align="center" responsive>
       <Image size="large" full="vertical" src="/images/Ground.jpeg" />
-    </Box>
+    </Box>    
     <Box>
       <p>Show your sport ship  and team spirit to win the game with best possible score and unexpected wins.</p>
       <p>Small Format, Less Time and Unlimited Fun, Excitement.</p>
