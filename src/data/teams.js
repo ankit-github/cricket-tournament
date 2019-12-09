@@ -7,12 +7,12 @@ const teams = {
     captain: 'Dhaval Atri',
     group: 'A',
     players: [
-      'Dhaval Atri',
-      'Saumil Mehta',
-      'Umang Bhavsar',
-      'Utpal Ganatra',
-      'Navin Prajapati',      
-      'Tushar Patel'  
+      "Pragnesh Patel",
+"Ashish Sangani",
+"Hasan Compounder",
+"Nishith Patel",
+"Rajnish",
+"Utpal Ganatra" 
     ]
   },
   'spirit': {
@@ -55,12 +55,12 @@ const teams = {
     captain: 'Chintan Patel',
     group: 'B',
     players: [
-      'Chintan Patel',
-      'Rahul Joshi',
-      'Bhavesh Lakhani',
-      'Ashish Sangani',
-      'Chirag Nathwani',
-      'Divyang Golaviya'
+      "Uday Bhavsar",
+"Anil Pandiya",
+"Chintan J. Patel",
+"Chirag Nathwani",
+"Divyang Golaviya",
+"Raj Dada"
     ]
   }, 
   'phoenix': {
@@ -71,12 +71,12 @@ const teams = {
     captain: 'Milan Chauhan',
     group: 'B',
     players: [
-      'Milan Chauhan',
-      'Ketul B Patel',
-      'Janak Patel',
-      'Sagar Gohil',
-      'Subodh Kumar',
-      'Gaurang Parmar'
+      "Rushikesh Patel",
+"Amarjeet Singh",
+"Kaushal Solanki",
+"Manan Patel",
+"Nirav Soni",
+"Shiv Patel"
     ]
   }, 
   'knights': {
@@ -103,11 +103,12 @@ const teams = {
     captain: 'Bhumita Vidja',
     group: 'G',
     players: [
-      'Divya Borad',
-      'Niyati Shah',
-      'Hetal Shah',
-      'Neha Dhandhukiya',
-      'Prajeesha Pillai'
+      "Pravin Prajapati",
+"Avesh Gaji",
+"Harmeet Singh",
+"Parth Prajapati",
+"Rajesh Jethava",
+"Yogesh Patil"
     ]
   },
   'bird1s': {
@@ -118,11 +119,12 @@ const teams = {
     captain: 'Divya Borad',
     group: 'B',
     players: [
-      'Bhumita Vidja',
-      'Ekta Patel',
-      'Mansi Vyas',
-      'Amee Badiyani',      
-      'Sweta Patel'
+      "Shreyans Halani",
+"Abhilash Shah",
+"Amit Kumar",
+"Jignesh Bhoraniya",
+"Maulik M. Patel",
+"Navin Prajapati"
     ]
   },
   'smashe1rs': {
