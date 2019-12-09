@@ -39,8 +39,8 @@ const App = (props) => (
           <Box>
             <Route path="/" exact component={Home} />
             <Route path="/rules" exact component={Rules} />
-            <Route path="/schedule" exact component={Schedule} /> 
-            <Route path="/results" exact component={Results} />
+            {/* <Route path="/schedule" exact component={Schedule} /> 
+            <Route path="/results" exact component={Results} /> */}
             <Route path="/teams" exact component={Teams} /> 
             <Route path="/gallery" exact component={Gallery} />
             <Route path="/venue" exact component={LocationMap} /> 
