@@ -21,7 +21,7 @@ const Home = (props) => (
     <Box>
       <p>Show your sport ship  and team spirit to win the game with best possible score and unexpected wins.</p>
       <p>Small Format, Less Time and Unlimited Fun, Excitement.</p>
-      <p>Total 46 players including 10 girls; Formed two groups for men, each group having 3 teams; Two girl teams</p>
+      <p>Total 58 players including 10 girls; Formed two groups for men, each group having 4 teams; Two girl teams</p>
     </Box>
     <Box direction="row" justify="between" responsive>
        {Object.keys(TeamData).map((team) => 

@@ -1,7 +1,7 @@
 const teams = {
   'tigers': {
     name: 'Dhansu Tigers',
-    image: './images/teams/DhasuTigers1.png',
+    image: './images/teams/DhasuTigers.png',
     thumbnilSize: { height: '90px', width: '80px'},
     mediumSize: { height: '180px', width: '160px'},
     captain: 'Dhaval Atri',
@@ -23,12 +23,12 @@ const teams = {
     captain: 'Bhavin Vachani',
     group: 'A',
     players: [
-      "Bhavin Vachhani",
-"Jatin Patel",
-"Jaydeep Hansalia",
-"Karmadeep Dodiya",
-"Nayan Thakor",
-"Umang Bhavsar"
+      'Bhavin Vachani',
+      'Viresh Shah',
+      'Kunjan Shah',
+      'Kartik Patel',
+      'Avesh Gaji',
+      'Pradhyumn'
     ]
   },
   'stars': {
@@ -39,17 +39,17 @@ const teams = {
     captain: 'Rajesh Jethva',
     group: 'A',
     players: [
-      "Kartik Patel",
-      "Kashyap Thakkar",
-      "Ketul B. Patel",
-      "Shirish Bhagat",
-      "Sumit Soni",
-      "Vishal M. Patel"      
+      'Rajesh Jethva',
+      'Rushikesh Patel',
+      'Pravin Prajapati',
+      'Shreyans Halani',
+      'Jatin Patel',
+      'Jignesh Patel'
     ]
   },
-  'eagles1': {
+  'eagles': {
     name: 'Eagles',
-    image: './images/teams/Eagles1.png',
+    image: './images/teams/Eagles.png',
     thumbnilSize: { height: '90px', width: '95px'},
     mediumSize: { height: '180px', width: '190px'},
     captain: 'Chintan Patel',
@@ -65,7 +65,7 @@ const teams = {
   }, 
   'phoenix': {
     name: 'Phoenix',
-    image: './images/teams/Phoenix1.png',
+    image: './images/teams/Phoenix.png',
     thumbnilSize: { height: '90px', width: '90px'},
     mediumSize: { height: '180px', width: '180px'},
     captain: 'Milan Chauhan',
@@ -87,17 +87,17 @@ const teams = {
     captain: 'Parth Patel',
     group: 'B',
     players: [
-      "Aleef Gandluru",
-      "Preyas Prajapati",
-      "Priyank Parikh",
-      "Rahul Joshi",
-      "Shabi Billy",
-      "Viresh Shah"      
+      'Parth Patel',
+      'Ketul M Patel',
+      'Chirag Prajapati',
+      'Aleef Gandluru',
+      'Abhishek Varma',
+      'Maulik M Patel'
     ]
   },
   'smashers': {
     name: 'Pitch Smashers',
-    image: './images/teams/PitchSmashers1.png',
+    image: './images/teams/PitchSmashers.png',
     thumbnilSize: { height: '90px', width: '70px'},
     mediumSize: { height: '180px', width: '140px'},
     captain: 'Bhumita Vidja',
@@ -110,45 +110,15 @@ const teams = {
       'Prajeesha Pillai'
     ]
   },
-  'bird1s': {
+  'birds': {
     name: 'Angry Birds',
-    image: './images/teams/AngryBirds1.png',
+    image: './images/teams/AngryBirds.png',
     thumbnilSize: { height: '90px', width: '80px'},
     mediumSize: { height: '180px', width: '160px'},
     captain: 'Divya Borad',
     group: 'B',
     players: [
       'Bhumita Vidja',
-      'Ekta Patel',
-      'Mansi Vyas',
-      'Amee Badiyani',      
-      'Sweta Patel'
-    ]
-  },
-  'smashe1rs': {
-    name: 'Pitch Smashers',
-    image: './images/teams/PitchSmashers1.png',
-    thumbnilSize: { height: '90px', width: '70px'},
-    mediumSize: { height: '180px', width: '140px'},
-    captain: 'Bhumita Vidja',
-    group: 'G',
-    players: [
-      'Divya Borad',
-      'Niyati Shah',
-      'Hetal Shah',
-      'Neha Dhandhukiya',
-      ''
-    ]
-  },
-  'eagles': {
-    name: 'Screaming Eagles',
-    image: './images/teams/ScreamingEagles.PNG',
-    thumbnilSize: { height: '90px', width: '80px'},
-    mediumSize: { height: '180px', width: '160px'},
-    captain: 'Divya Borad',
-    group: 'B',
-    players: [
-      'Prajeesha Pillai',
       'Ekta Patel',
       'Mansi Vyas',
       'Amee Badiyani',      
