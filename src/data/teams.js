@@ -95,9 +95,9 @@ const teams = {
       "Viresh Shah"      
     ]
   },
-  'smashers': {
-    name: 'Pitch Smashers',
-    image: './images/teams/PitchSmashers1.png',
+  'ieagles': {
+    name: 'iBASEt Eagles',
+    image: './images/teams/iBASEtEagles.PNG',
     thumbnilSize: { height: '90px', width: '70px'},
     mediumSize: { height: '180px', width: '140px'},
     captain: 'Bhumita Vidja',
@@ -136,9 +136,9 @@ const teams = {
     group: 'G',
     players: [
       'Divya Borad',
-      'Niyati Shah',
-      'Hetal Shah',
-      'Neha Dhandhukiya',
+      '',
+      '',
+      '',
       ''
     ]
   },
@@ -151,10 +151,10 @@ const teams = {
     group: 'B',
     players: [
       'Prajeesha Pillai',
-      'Ekta Patel',
-      'Mansi Vyas',
-      'Amee Badiyani',      
-      'Sweta Patel'
+      '',
+      '',
+      '',      
+      ''
     ]
   }
 };
