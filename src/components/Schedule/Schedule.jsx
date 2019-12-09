@@ -9,12 +9,12 @@ const Schedule = (props) => (
   <Box>
     <Heading level={3}>Schedule</Heading>
     <Tabs justify="center">
-      <Tab title="Practice Matches">
+      <Tab title="Group Stage Matches">
         <MatchSchedule schedule={scheduleData.practice} />
       </Tab>
-      <Tab title="Tournament Matches">
+      {/* <Tab title="Group Stage - 2 Matches">
         <MatchSchedule schedule={scheduleData.tournament}/>
-      </Tab>
+      </Tab> */}
     </Tabs>
   </Box>
 );

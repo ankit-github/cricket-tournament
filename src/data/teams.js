@@ -4,7 +4,7 @@ const teams = {
     image: './images/teams/6Mojila.png',
     thumbnilSize: { height: '90px', width: '80px'},
     mediumSize: { height: '180px', width: '160px'},
-    captain: 'Dhaval Atri',
+    captain: 'Pragnesh',
     group: 'A',
     players: [
       "Pragnesh",
@@ -20,7 +20,7 @@ const teams = {
     image: './images/teams/TeamSpirit.png',
     thumbnilSize: { height: '90px', width: '117px'},
     mediumSize: { height: '180px', width: '235px'},
-    captain: 'Bhavin Vachani',
+    captain: 'Bhavin',
     group: 'A',
     players: [
       "Bhavin",
@@ -36,7 +36,7 @@ const teams = {
     image: './images/teams/RisingStars.png',
     thumbnilSize: { height: '90px', width: '65px'},
     mediumSize: { height: '180px', width: '130px'},
-    captain: 'Rajesh Jethva',
+    captain: 'Kartik',
     group: 'A',
     players: [
       "Kartik",
@@ -52,7 +52,7 @@ const teams = {
     image: './images/teams/SnowChaser.png',
     thumbnilSize: { height: '90px', width: '95px'},
     mediumSize: { height: '180px', width: '190px'},
-    captain: 'Chintan Patel',
+    captain: 'Uday',
     group: 'B',
     players: [
       "Uday",
@@ -68,7 +68,7 @@ const teams = {
     image: './images/teams/Eagles.png',
     thumbnilSize: { height: '90px', width: '90px'},
     mediumSize: { height: '180px', width: '180px'},
-    captain: 'Milan Chauhan',
+    captain: 'Rushikesh',
     group: 'B',
     players: [
       "Rushikesh",
@@ -84,7 +84,7 @@ const teams = {
     image: './images/teams/Knights.png',
     thumbnilSize: { height: '90px', width: '90px'},
     mediumSize: { height: '180px', width: '180px'},
-    captain: 'Parth Patel',
+    captain: 'Aleef',
     group: 'B',
     players: [
       "Aleef",
@@ -100,7 +100,7 @@ const teams = {
     image: './images/teams/iBASEtEagles.PNG',
     thumbnilSize: { height: '90px', width: '70px'},
     mediumSize: { height: '180px', width: '140px'},
-    captain: 'Bhumita Vidja',
+    captain: 'Pravin',
     group: 'G',
     players: [
       "Pravin P",
@@ -116,7 +116,7 @@ const teams = {
     image: './images/teams/RoyalTigers.png',
     thumbnilSize: { height: '90px', width: '80px'},
     mediumSize: { height: '180px', width: '160px'},
-    captain: 'Divya Borad',
+    captain: 'Shreyans',
     group: 'B',
     players: [
       "Shreyans",
@@ -132,7 +132,7 @@ const teams = {
     image: './images/teams/TheDominators.png',
     thumbnilSize: { height: '90px', width: '70px'},
     mediumSize: { height: '180px', width: '140px'},
-    captain: 'Bhumita Vidja',
+    captain: 'Ayushi',
     group: 'G',
     players: [
       "Ayushi",
@@ -148,7 +148,7 @@ const teams = {
     image: './images/teams/ScreamingEagles.PNG',
     thumbnilSize: { height: '90px', width: '80px'},
     mediumSize: { height: '180px', width: '160px'},
-    captain: 'Divya Borad',
+    captain: 'Prajeesha',
     group: 'B',
     players: [
       "Prajeesha",
