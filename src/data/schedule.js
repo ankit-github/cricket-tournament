@@ -6,7 +6,7 @@ const data = {
       "matches": [
         { "matchNo": 1, "teams": ["stars", "mojila" ], "time": "7:00 PM"},
         { "matchNo": 2, "teams": ["chaser", "tigers" ], "time": "7:20 PM"},
-        { "matchNo": 3, "teams": ["beagles", "spirit" ], "time": "7:40 PM"}
+        { "matchNo": 3, "teams": ["beagles", "tigers" ], "time": "7:40 PM"}
       ]
     }, {
       "date": "Day 2 - Wednesday, 11 December, 2019",
@@ -14,7 +14,7 @@ const data = {
       "matches": [
         { "matchNo": 4, "teams": ["knights", "ieagles" ], "time": "7:00 PM"},
         { "matchNo": 5, "teams": ["mojila", "chaser" ], "time": "7:20 PM"},
-        { "matchNo": 6, "teams": ["tigers", "beagles" ], "time": "7:40 PM"}
+        { "matchNo": 6, "teams": ["spirit", "beagles" ], "time": "7:40 PM"}
       ]
     },
     { 
