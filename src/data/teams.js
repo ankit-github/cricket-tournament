@@ -1,36 +1,5 @@
 const teams = {
-  'mojila': {
-    name: '6 Mojila',
-    image: './images/teams/6Mojila.png',
-    thumbnilSize: { height: '90px', width: '80px'},
-    mediumSize: { height: '180px', width: '160px'},
-    captain: 'Pragnesh',
-    group: 'A',
-    players: [
-      "Pragnesh",
-"Ashish",
-"Hasan",
-"Nishith",
-"Rajnish",
-"Utpal" 
-    ]
-  },
-  'spirit': {
-    name: 'Team Spirit',
-    image: './images/teams/TeamSpirit.png',
-    thumbnilSize: { height: '90px', width: '117px'},
-    mediumSize: { height: '180px', width: '235px'},
-    captain: 'Bhavin',
-    group: 'A',
-    players: [
-      "Bhavin",
-"Jatin",
-"Jaydeep",
-"Karmadeep",
-"Nayan",
-"Umang"
-    ]
-  },
+  
   'stars': {
     name: 'Rising Stars',
     image: './images/teams/RisingStars.png',
@@ -47,6 +16,7 @@ const teams = {
       "Vishal"      
     ]
   },
+  
   'chaser': {
     name: 'Snow Chaser',
     image: './images/teams/SnowChaser.png',
@@ -78,7 +48,7 @@ const teams = {
 "Nirav",
 "Shiv"
     ]
-  }, 
+  },
   'knights': {
     name: 'Knights',
     image: './images/teams/Knights.png',
@@ -95,22 +65,24 @@ const teams = {
       "Viresh"      
     ]
   },
-  'ieagles': {
-    name: 'iBASEt Eagles',
-    image: './images/teams/iBASEtEagles.PNG',
-    thumbnilSize: { height: '90px', width: '70px'},
-    mediumSize: { height: '180px', width: '140px'},
-    captain: 'Pravin',
-    group: 'G',
+
+  'mojila': {
+    name: '6 Mojila',
+    image: './images/teams/6Mojila.png',
+    thumbnilSize: { height: '90px', width: '80px'},
+    mediumSize: { height: '180px', width: '160px'},
+    captain: 'Pragnesh',
+    group: 'A',
     players: [
-      "Pravin P",
-"Avesh",
-"Harmeet",
-"Parth Prajapati",
-"Rajesh",
-"Yogesh"
+      "Pragnesh",
+"Ashish",
+"Hasan",
+"Nishith",
+"Rajnish",
+"Utpal" 
     ]
   },
+  
   'tigers': {
     name: 'Royal Tigers',
     image: './images/teams/RoyalTigers.png',
@@ -125,6 +97,39 @@ const teams = {
 "Jignesh",
 "Maulik",
 "Navin"
+    ]
+  },
+  'spirit': {
+    name: 'Team Spirit',
+    image: './images/teams/TeamSpirit.png',
+    thumbnilSize: { height: '90px', width: '117px'},
+    mediumSize: { height: '180px', width: '235px'},
+    captain: 'Bhavin',
+    group: 'A',
+    players: [
+      "Bhavin",
+"Jatin",
+"Jaydeep",
+"Karmadeep",
+"Nayan",
+"Umang"
+    ]
+  },
+  
+  'ieagles': {
+    name: 'iBASEt Eagles',
+    image: './images/teams/iBASEtEagles.PNG',
+    thumbnilSize: { height: '90px', width: '70px'},
+    mediumSize: { height: '180px', width: '140px'},
+    captain: 'Pravin',
+    group: 'G',
+    players: [
+      "Pravin P",
+"Avesh",
+"Harmeet",
+"Parth Prajapati",
+"Rajesh",
+"Yogesh"
     ]
   },
   'dominators': {
