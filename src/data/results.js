@@ -13,7 +13,7 @@ const results = {
     "chaser": {"runs": 24, "wickets": 6, "overs": 5 },
     "tigers": {"runs": 29, "wickets": 2, "overs": 2.4 },
     "result": {
-      "winner": "tigers",
+      "winner": "chaser",
       "margin": "4 wickets"
     }
   },
