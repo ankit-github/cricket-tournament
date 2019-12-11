@@ -7,16 +7,16 @@ import ResultData from '../../data/results';
 
 const Results = (props) => (
   <Box>
-    {/* <Heading level={3}>Results</Heading>
+     <Heading level={3}>Results</Heading>
     <Box className="bottom-line"></Box>
     <Tabs justify="center">
       <Tab title="Practice Matches">
-        <MatchesResult matches={ResultData.practice} detailedResult={false} />
+        <MatchesResult matches={ResultData.practice} />
       </Tab>
       <Tab title="Tournament Matches">
         <MatchesResult matches={ResultData.tournament} />
       </Tab>
-    </Tabs> */}
+    </Tabs> 
   </Box>
 );
 

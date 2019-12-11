@@ -4,6 +4,10 @@ import Image from 'grommet/components/Image';
 import Layer from 'grommet/components/Layer';
 import ScoreCard from './ScoreCard';
 import TeamData from '../../data/teams';
+import ScoreSheets from '../../data/scoresheet2019';
+import ScoreSheet from './ScoreSheet';
+
+ 
 
 class MatchesResult extends React.Component {
   constructor(props) {
@@ -34,6 +38,7 @@ class MatchesResult extends React.Component {
   }
 
   render() {
+    console.log(this.props);
     const { matches } = this.props;
     const { showLayer, matchKey, details} = this.state;
     return (
@@ -65,9 +70,15 @@ class MatchesResult extends React.Component {
           </React.Fragment>
         })
       }
-      { showLayer && <Layer position="center" onEsc={this.closeScorecard}>
-          <ScoreCard matchKey={matchKey} closeHandler={this.closeScorecard} matchDetails={details} />
-        </Layer> }
+      {/* {  showLayer && <Layer position="center" onEsc={this.closeScorecard}>
+            { <ScoreCard matchKey={matchKey} closeHandler={this.closeScorecard} matchDetails={details} /> } 
+        </Layer> }  */}
+
+        {  showLayer &&  <Layer position="center" onEsc={this.closeScorecard}>
+        <ScoreSheet match={ScoreSheets[matchKey]}/>
+        </Layer>
+             } 
+        
       </Box>);
   }
 }

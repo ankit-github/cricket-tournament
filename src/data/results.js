@@ -1,7 +1,30 @@
 import schedule from './schedule';
 
 const results = {
-  
+  "p1.1": {
+    "stars": {"runs": 37, "wickets": 3, "overs": 6 },
+    "mojila": {"runs": 39, "wickets": 5, "overs": 5.5 },
+    "result": {
+      "winner": "mojila",
+      "margin": "1 wicket"
+    }
+  },
+  "p1.2": {
+    "chaser": {"runs": 24, "wickets": 6, "overs": 5 },
+    "tigers": {"runs": 29, "wickets": 2, "overs": 2.4 },
+    "result": {
+      "winner": "tigers",
+      "margin": "4 wickets"
+    }
+  },
+  "p1.3": {
+    "beagles": {"runs": 30, "wickets": 6, "overs": 6 },
+    "tigers": {"runs": 11, "wickets": 6, "overs": 3.5 },
+    "result": {
+      "winner": "beagles",
+      "margin": "19 runs"
+    }
+  }
 };
 
 const matches = {};

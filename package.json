@@ -25,13 +25,14 @@
   },
   "homepage": "https://github.com/ankit-github/cricket-tournament#readme",
   "dependencies": {
-    "google-map-react": "0.25.0",
     "file-loader": "1.1.5",
+    "google-map-react": "0.25.0",
     "grommet": "2.0.0-alpha.5",
     "material-ui": "0.20.0",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-image-gallery": "0.8.6",
+    "react-pdf": "3.0.0",
     "react-router": "4.2.0",
     "react-router-dom": "4.2.2",
     "styled-components": "2.2.4"
