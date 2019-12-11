@@ -23,8 +23,7 @@ class ScoreSheet extends Component {
           onLoadSuccess={this.onDocumentLoadSuccess}
           externalLinkTarget="_blank"
           noData="Scoresheet is not available"
-        >
-          <Page pageNumber={pageNumber} />
+        >        
           {Array.from(
           new Array(numPages),
           (el, index) => (
