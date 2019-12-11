@@ -5,7 +5,7 @@ const data = {
       "teams": ["tigers", "spirit", "stars", "chaser", "beagles", "mojila"],
       "matches": [
         { "matchNo": 1, "teams": ["stars", "mojila" ], "time": "7:00 PM"},
-        { "matchNo": 2, "teams": ["chaser", "tigers" ], "time": "7:20 PM"},
+        { "matchNo": 2, "teams": [ "tigers","chaser" ], "time": "7:20 PM"},
         { "matchNo": 3, "teams": ["beagles", "tigers" ], "time": "7:40 PM"}
       ]
     }, {

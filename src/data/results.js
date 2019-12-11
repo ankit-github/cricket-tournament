@@ -10,8 +10,8 @@ const results = {
     }
   },
   "p1.2": {
-    "tigers": {"runs": 24, "wickets": 6, "overs": 5 },
     "chaser": {"runs": 29, "wickets": 2, "overs": 2.4 },
+    "tigers": {"runs": 24, "wickets": 6, "overs": 5 },    
     "result": {
       "winner": "chaser",
       "margin": "4 wickets"
