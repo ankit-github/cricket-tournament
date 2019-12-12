@@ -24,6 +24,30 @@ const results = {
       "winner": "beagles",
       "margin": "19 runs"
     }
+  },
+  "p2.1": {
+    "knights": {"runs": 6, "wickets": 6, "overs": 3.4 },
+    "ieagles": {"runs": 18, "wickets": 0, "overs": 2.3 },
+    "result": {
+      "winner": "ieagles",
+      "margin": "6 wickets"
+    }
+  },
+  "p2.2": {
+    "chaser": {"runs": 27, "wickets": 4, "overs": 6 },    
+    "mojila": {"runs": 42, "wickets": 0, "overs": 2.2 },    
+    "result": {
+      "winner": "mojila",
+      "margin": "6 wickets"
+    }
+  },
+  "p2.3": {
+    "beagles": {"runs": 20, "wickets": 6, "overs": 4 },
+    "spirit": {"runs": 24, "wickets": 0, "overs": 1.1 },    
+    "result": {
+      "winner": "spirit",
+      "margin": "6 wickets"
+    }
   }
 };
 
