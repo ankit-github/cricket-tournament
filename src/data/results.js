@@ -48,6 +48,30 @@ const results = {
       "winner": "spirit",
       "margin": "6 wickets"
     }
+  },
+  "p3.1": {
+    "spirit": {"runs": 31, "wickets": 4, "overs": 6 },
+    "knights": {"runs": 24, "wickets": 6, "overs": 6 },    
+    "result": {
+      "winner": "spirit",
+      "margin": "7 runs"
+    }
+  },
+  "p3.2": {
+    "ieagles": {"runs": 27, "wickets": 4, "overs": 6 },    
+    "stars": {"runs": 22, "wickets": 4, "overs": 6 },    
+    "result": {
+      "winner": "ieagles",
+      "margin": "5 runs"
+    }
+  },
+  "p3.3": {
+    "eagles": {"runs": 21, "wickets": 3, "overs": 5 },
+    "dominators": {"runs": 17, "wickets": 5, "overs": 4.1 },    
+    "result": {
+      "winner": "eagles",
+      "margin": "4 runs"
+    }
   }
 };
 
