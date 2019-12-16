@@ -12,7 +12,7 @@ const Results = (props) => (
      <Heading level={3}>Results</Heading>
     <Box className="bottom-line"></Box>
     <Tabs justify="center">
-    <Tab title="Point Table">
+      <Tab title="Point Table">
         <Group matches={ResultData.tournament} teams={Teams} />
       </Tab>
       <Tab title="Practice Matches">
