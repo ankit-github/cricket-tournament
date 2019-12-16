@@ -23,7 +23,7 @@ const teams = {
     thumbnilSize: { height: '90px', width: '95px'},
     mediumSize: { height: '180px', width: '190px'},
     captain: 'Uday',
-    group: 'B',
+    group: 'A',
     players: [
       "Uday",
 "Anil",
@@ -39,7 +39,7 @@ const teams = {
     thumbnilSize: { height: '90px', width: '90px'},
     mediumSize: { height: '180px', width: '180px'},
     captain: 'Rushikesh',
-    group: 'B',
+    group: 'A',
     players: [
       "Rushikesh",
 "Amarjeet",
@@ -55,7 +55,7 @@ const teams = {
     thumbnilSize: { height: '90px', width: '90px'},
     mediumSize: { height: '180px', width: '180px'},
     captain: 'Aleef',
-    group: 'B',
+    group: 'A',
     players: [
       "Aleef",
       "Preyas",
@@ -72,7 +72,7 @@ const teams = {
     thumbnilSize: { height: '90px', width: '80px'},
     mediumSize: { height: '180px', width: '160px'},
     captain: 'Pragnesh',
-    group: 'A',
+    group: 'B',
     players: [
       "Pragnesh",
 "Ashish",
@@ -105,7 +105,7 @@ const teams = {
     thumbnilSize: { height: '90px', width: '117px'},
     mediumSize: { height: '180px', width: '235px'},
     captain: 'Bhavin',
-    group: 'A',
+    group: 'B',
     players: [
       "Bhavin",
 "Jatin",
@@ -122,7 +122,7 @@ const teams = {
     thumbnilSize: { height: '90px', width: '70px'},
     mediumSize: { height: '180px', width: '140px'},
     captain: 'Pravin',
-    group: 'G',
+    group: 'B',
     players: [
       "Pravin P",
 "Avesh",
@@ -154,7 +154,7 @@ const teams = {
     thumbnilSize: { height: '90px', width: '80px'},
     mediumSize: { height: '180px', width: '160px'},
     captain: 'Prajeesha',
-    group: 'B',
+    group: 'G',
     players: [
       "Prajeesha",
 "Amee",
