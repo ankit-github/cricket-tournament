@@ -148,7 +148,8 @@ const getTeamCard = (matches) =>
     teamCard.nrr = isNaN(nrr) ? 0 : nrr;
     teamGroupArray.push(teamCard);    
   });
-  teamGroupArray.sort((a,b) =>(a.won<b.won)?1:-1);
+  teamGroupArray.sort((a,b) => ((a.points <= b.points && (parseFloat(a.nrr)<=parseFloat(b.nrr))) ? 1 : -1));  
+  
   
   return teamGroupArray;
 }

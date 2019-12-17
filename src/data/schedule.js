@@ -37,7 +37,7 @@ const data = {
         { "matchNo": 3, "teams": ["mojila", "ieagles" ], "time": "7:40 PM"},
         { "matchNo": 4, "teams": ["tigers", "spirit" ], "time": "8:00 PM"},
         { "matchNo": 5, "teams": ["chaser", "knights" ], "time": "8:20 PM"},
-        { "matchNo": 6, "teams": ["stars", "beagles" ], "time": "8:40 PM"}
+        { "matchNo": 6, "teams": [ "beagles","stars" ], "time": "8:40 PM"}
       ]
     }, {
       "date": "Day 2 - Tuesday, 17 December, 2019",

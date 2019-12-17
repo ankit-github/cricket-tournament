@@ -72,6 +72,61 @@ const results = {
       "winner": "eagles",
       "margin": "4 runs"
     }
+  },
+  /*
+   { "matchNo": 1, "teams": ["stars", "chaser" ], "time": "7:00 PM"},
+        { "matchNo": 2, "teams": ["beagles", "knights" ], "time": "7:20 PM"},
+        { "matchNo": 3, "teams": ["mojila", "ieagles" ], "time": "7:40 PM"},
+        { "matchNo": 4, "teams": ["tigers", "spirit" ], "time": "8:00 PM"},
+        { "matchNo": 5, "teams": ["chaser", "knights" ], "time": "8:20 PM"},
+        { "matchNo": 6, "teams": ["stars", "beagles" ], "time": "8:40 PM"}*/
+  "t1.1": {
+    "stars": {"runs": 18, "wickets": 5, "overs": 6 },
+    "chaser": {"runs": 19, "wickets": 3, "overs": 4.3 },    
+    "result": {
+      "winner": "chaser",
+      "margin": "3 wickets"
+    }
+  },
+  "t1.2": {
+    "beagles": {"runs": 46, "wickets": 4, "overs": 6 },
+    "knights": {"runs": 36, "wickets": 6, "overs": 5.5 },    
+    "result": {
+      "winner": "beagles",
+      "margin": "10 runs"
+    }
+  },
+  "t1.3": {
+    "ieagles": {"runs": 28, "wickets": 6, "overs": 4.4 },
+    "mojila": {"runs": 21, "wickets": 5, "overs": 6 },    
+    "result": {
+      "winner": "ieagles",
+      "margin": "7 runs"
+    }
+  },
+  "t1.4": {
+    "spirit": {"runs": 44, "wickets": 4, "overs": 6 },
+    "tigers": {"runs": 10, "wickets": 5, "overs": 4.4 },    
+    "result": {
+      "winner": "spirit",
+      "margin": "34 runs"
+    }
+  },
+  "t1.5": {
+    "chaser": {"runs": 32, "wickets": 2, "overs": 6 },
+    "knights": {"runs": 13, "wickets": 6, "overs": 3 },    
+    "result": {
+      "winner": "chaser",
+      "margin": "19 runs"
+    }
+  },
+  "t1.6": {
+    "beagles": {"runs": 31, "wickets": 4, "overs": 6 },
+    "stars": {"runs": 32, "wickets": 2, "overs": 5.3 },    
+    "result": {
+      "winner": "stars",
+      "margin": "4 wickets"
+    }
   }
 };
 
