@@ -50,12 +50,13 @@ const data = {
       "date": "Day 3 - Wednesday, 18 December, 2019",
       "teams": ["stars","chaser","beagles","knights","mojila","tigers","spirit","ieagles"],
       "matches": [
-        { "matchNo": 1, "teams": ["mojila", "tigers" ], "time": "7:00 PM"},
-        { "matchNo": 2, "teams": ["spirit", "ieagles" ], "time": "7:20 PM"},
-        { "matchNo": 3, "teams": ["stars", "knights" ], "time": "7:40 PM"},
-        { "matchNo": 4, "teams": ["chaser", "beagles" ], "time": "8:00 PM"},
-        { "matchNo": 5, "teams": ["tigers", "ieagles" ], "time": "8:20 PM"},
-        { "matchNo": 6, "teams": ["mojila", "spirit" ], "time": "8:40 PM"}
+        { "matchNo": 1, "teams": ["spirit", "ieagles" ], "time": "7:20 PM"},
+        { "matchNo": 2, "teams": ["stars", "knights" ], "time": "7:40 PM"},        
+        { "matchNo": 3, "teams": ["mojila", "spirit" ], "time": "8:40 PM"},
+        { "matchNo": 4, "teams": ["mojila", "tigers" ], "time": "7:00 PM"},
+        { "matchNo": 5, "teams": ["chaser", "beagles" ], "time": "8:00 PM"},
+        { "matchNo": 6, "teams": ["tigers", "ieagles" ], "time": "8:20 PM"},
+        
       ]
     }, {
       "date": "Day 4 - Thrusday, 19 December, 2019",
