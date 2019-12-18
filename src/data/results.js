@@ -127,6 +127,22 @@ const results = {
       "winner": "stars",
       "margin": "4 wickets"
     }
+  },
+  "t2.1": {
+    "eagles": {"runs": 36, "wickets": 1, "overs": 5 },
+    "dominators": {"runs": 29, "wickets": 1, "overs": 5 },    
+    "result": {
+      "winner": "eagles",
+      "margin": "7 runs"
+    }
+  },
+  "t2.2": {
+    "dominators": {"runs": 22, "wickets": 2, "overs": 5 },  
+    "eagles": {"runs": 16, "wickets": 4, "overs": 5 },      
+    "result": {
+      "winner": "dominators",
+      "margin": "6 runs"
+    }
   }
 };
 

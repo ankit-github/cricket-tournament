@@ -34,8 +34,8 @@ const data = {
       "matches": [
         { "matchNo": 1, "teams": ["stars", "chaser" ], "time": "7:00 PM"},
         { "matchNo": 2, "teams": ["beagles", "knights" ], "time": "7:20 PM"},
-        { "matchNo": 3, "teams": ["mojila", "ieagles" ], "time": "7:40 PM"},
-        { "matchNo": 4, "teams": ["tigers", "spirit" ], "time": "8:00 PM"},
+        { "matchNo": 3, "teams": ["ieagles", "mojila"  ], "time": "7:40 PM"},
+        { "matchNo": 4, "teams": ["spirit","tigers"  ], "time": "8:00 PM"},
         { "matchNo": 5, "teams": ["chaser", "knights" ], "time": "8:20 PM"},
         { "matchNo": 6, "teams": [ "beagles","stars" ], "time": "8:40 PM"}
       ]
@@ -43,8 +43,9 @@ const data = {
       "date": "Day 2 - Tuesday, 17 December, 2019",
       "teams": [ "eagles", "dominators" ],
       "matches": [
-        { "matchNo": 1, "teams": ["eagles", "dominators" ], "time": "7:00 PM"},
-        { "matchNo": 2, "teams": ["dominators", "eagles" ], "time": "7:30 PM"},
+        { "matchNo": 1, "teams": ["dominators", "eagles" ], "time": "7:00 PM"},
+        { "matchNo": 2, "teams": ["eagles", "dominators" ], "time": "7:30 PM"}
+        
       ]
     }, {
       "date": "Day 3 - Wednesday, 18 December, 2019",
