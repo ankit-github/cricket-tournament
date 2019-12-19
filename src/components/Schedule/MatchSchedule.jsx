@@ -16,7 +16,7 @@ const MatchSchedule = ({ schedule }) => (
         {
           day.matches.map((match, index) => (
             <Box key={`${index}.${match.matchNo}`} align="center" margin="small" className="battle-match">
-              <Box margin="small">{`Battle-${match.matchNo}`}</Box>
+              <Box margin="small">{match.matchName!=undefined? match.matchName : `Battle-${match.matchNo}`}</Box>
                 {(match.teams.length > 0) ?
                   <Box direction="row" align="center" margin="small">
                     <Image src={TeamData[match.teams[0]].image} {...TeamData[match.teams[0]].thumbnilSize} />
