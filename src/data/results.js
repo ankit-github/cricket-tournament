@@ -73,13 +73,7 @@ const results = {
       "margin": "4 runs"
     }
   },
-  /*
-   { "matchNo": 1, "teams": ["stars", "chaser" ], "time": "7:00 PM"},
-        { "matchNo": 2, "teams": ["beagles", "knights" ], "time": "7:20 PM"},
-        { "matchNo": 3, "teams": ["mojila", "ieagles" ], "time": "7:40 PM"},
-        { "matchNo": 4, "teams": ["tigers", "spirit" ], "time": "8:00 PM"},
-        { "matchNo": 5, "teams": ["chaser", "knights" ], "time": "8:20 PM"},
-        { "matchNo": 6, "teams": ["stars", "beagles" ], "time": "8:40 PM"}*/
+  
   "t1.1": {
     "stars": {"runs": 18, "wickets": 5, "overs": 6 },
     "chaser": {"runs": 19, "wickets": 3, "overs": 4.3 },    
@@ -141,6 +135,61 @@ const results = {
     "eagles": {"runs": 16, "wickets": 4, "overs": 5 },      
     "result": {
       "winner": "dominators",
+      "margin": "6 runs"
+    }
+  },
+  /*
+  { "matchNo": 1, "teams": ["spirit", "ieagles" ], "time": "7:00 PM"},
+        { "matchNo": 2, "teams": ["mojila", "tigers" ], "time": "7:20 PM"},                
+        { "matchNo": 3, "teams": ["mojila", "spirit" ], "time": "7:40 PM"},
+        { "matchNo": 4, "teams": ["stars", "knights" ], "time": "8:00 PM"},
+        { "matchNo": 5, "teams": ["chaser", "beagles" ], "time": "8:20 PM"},
+        { "matchNo": 6, "teams": ["tigers", "ieagles" ], "time": "8:40 PM"},*/
+  "t3.1": {
+    "ieagles": {"runs": 40, "wickets": 5, "overs": 6 },
+    "spirit": {"runs": 17, "wickets": 6, "overs": 5.3 },    
+    "result": {
+      "winner": "ieagles",
+      "margin": "23 runs"
+    }
+  },
+  "t3.2": {
+    "mojila": {"runs": 24, "wickets": 6, "overs": 5.1 },
+    "tigers": {"runs": 25, "wickets": 3, "overs": 5.3 },    
+    "result": {
+      "winner": "tigers",
+      "margin": "3 wickets"
+    }
+  },
+  "t3.3": {
+    "spirit": {"runs": 9, "wickets": 6, "overs": 3.3 },
+    "mojila": {"runs": 10, "wickets": 2, "overs": 3.3 },    
+    "result": {
+      "winner": "mojila",
+      "margin": "4 wickets"
+    }
+  },
+  "t3.4": {
+    "stars": {"runs": 23, "wickets": 6, "overs": 6 },
+    "knights": {"runs": 24, "wickets": 2, "overs": 4.4 },    
+    "result": {
+      "winner": "knights",
+      "margin": "4 wickets"
+    }
+  },
+  "t3.5": {
+    "chaser": {"runs": 29, "wickets": 6, "overs": 5.3 },
+    "beagles": {"runs": 30, "wickets": 3, "overs": 6 },    
+    "result": {
+      "winner": "beagles",
+      "margin": "3 wickets"
+    }
+  },
+  "t3.6": {
+    "ieagles": {"runs": 22, "wickets": 3, "overs": 6 },
+    "tigers": {"runs": 16, "wickets": 5, "overs": 5 },    
+    "result": {
+      "winner": "ieagles",
       "margin": "6 runs"
     }
   }

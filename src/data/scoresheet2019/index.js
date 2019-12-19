@@ -14,6 +14,11 @@ import t15 from './t1.5.pdf';
 import t16 from './t1.6.pdf';
 import t21 from './t2.1.pdf';
 import t22 from './t2.2.pdf';
+import t32 from './t3.2.pdf';
+import t33 from './t3.3.pdf';
+import t34 from './t3.4.pdf';
+import t35 from './t3.5.pdf';
+import t36 from './t3.6.pdf';
 
 const scorecardData = {};
 scorecardData['p1.1'] = p11;
@@ -33,4 +38,9 @@ scorecardData['t1.6'] = t16;
 scorecardData['t2.1'] = t21;
 scorecardData['t2.2'] = t22;
 
+scorecardData['t3.2'] = t32;
+scorecardData['t3.3'] = t33;
+scorecardData['t3.4'] = t34;
+scorecardData['t3.5'] = t35;
+scorecardData['t3.6'] = t36;
 export default scorecardData;

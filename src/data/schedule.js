@@ -51,12 +51,12 @@ const data = {
       "date": "Day 3 - Wednesday, 18 December, 2019",
       "teams": ["stars","chaser","beagles","knights","mojila","tigers","spirit","ieagles"],
       "matches": [
-        { "matchNo": 1, "teams": ["spirit", "ieagles" ], "time": "7:00 PM"},
+        { "matchNo": 1, "teams": ["ieagles", "spirit" ], "time": "7:00 PM"},
         { "matchNo": 2, "teams": ["mojila", "tigers" ], "time": "7:20 PM"},                
-        { "matchNo": 3, "teams": ["mojila", "spirit" ], "time": "7:40 PM"},
+        { "matchNo": 3, "teams": ["spirit","mojila"  ], "time": "7:40 PM"},
         { "matchNo": 4, "teams": ["stars", "knights" ], "time": "8:00 PM"},
         { "matchNo": 5, "teams": ["chaser", "beagles" ], "time": "8:20 PM"},
-        { "matchNo": 6, "teams": ["tigers", "ieagles" ], "time": "8:40 PM"},
+        { "matchNo": 6, "teams": ["ieagles","tigers" ], "time": "8:40 PM"},
         
       ]
     }, {
