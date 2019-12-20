@@ -65,9 +65,9 @@ const data = {
       "matches": [
         { "matchNo": 1, "matchName": "Girls Final", "teams": ["dominators", "eagles"], "time": "7:00 PM"},
         { "matchNo": 2, "matchName": "Semi Final 1", "teams": ["chaser","spirit"], "time": "7:30 PM"},
-        { "matchNo": 2, "matchName": "Semi Final 2", "teams": ["ieagles","beagles"], "time": "7:50 PM"},
-        { "matchNo": 3, "matchName": "Special Match", "teams": [], "time": "8:10 PM"},
-        { "matchNo": 4, "matchName": "Final", "teams": [], "time": "8:30 PM"}
+        { "matchNo": 3, "matchName": "Semi Final 2", "teams": ["ieagles","beagles"], "time": "7:50 PM"},
+        { "matchNo": 4, "matchName": "Final", "teams": ["spirit","ieagles"], "time": "8:15 PM"},
+        { "matchNo": 5, "matchName": "Special Match", "teams": [], "time": "8:40 PM"}        
       ]
     }]
   }

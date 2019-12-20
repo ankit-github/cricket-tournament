@@ -137,14 +137,7 @@ const results = {
       "winner": "dominators",
       "margin": "6 runs"
     }
-  },
-  /*
-  { "matchNo": 1, "teams": ["spirit", "ieagles" ], "time": "7:00 PM"},
-        { "matchNo": 2, "teams": ["mojila", "tigers" ], "time": "7:20 PM"},                
-        { "matchNo": 3, "teams": ["mojila", "spirit" ], "time": "7:40 PM"},
-        { "matchNo": 4, "teams": ["stars", "knights" ], "time": "8:00 PM"},
-        { "matchNo": 5, "teams": ["chaser", "beagles" ], "time": "8:20 PM"},
-        { "matchNo": 6, "teams": ["tigers", "ieagles" ], "time": "8:40 PM"},*/
+  },  
   "t3.1": {
     "ieagles": {"runs": 40, "wickets": 5, "overs": 6 },
     "spirit": {"runs": 17, "wickets": 6, "overs": 5.3 },    
@@ -191,6 +184,38 @@ const results = {
     "result": {
       "winner": "ieagles",
       "margin": "6 runs"
+    }
+  },
+  "t4.1": {
+    "eagles": {"runs": 18, "wickets": 1, "overs": 5 },    
+    "dominators": {"runs": 19, "wickets": 3, "overs": 4.2 },    
+    "result": {
+      "winner": "dominators",
+      "margin": "2 wickets"
+    }
+  },
+  "t4.2": {
+    "spirit": {"runs": 36, "wickets": 4, "overs": 6 },
+    "chaser": {"runs": 23, "wickets": 6, "overs": 5.4 },    
+    "result": {
+      "winner": "spirit",
+      "margin": "13 runs"
+    }
+  },
+  "t4.3": {
+    "ieagles": {"runs": 33, "wickets": 2, "overs": 6 },
+    "beagles": {"runs": 16, "wickets": 5, "overs": 5.3 },    
+    "result": {
+      "winner": "ieagles",
+      "margin": "17 runs"
+    }
+  },
+  "t4.4": {
+    "spirit": {"runs": 27, "wickets": 3, "overs": 6 },
+    "ieagles": {"runs": 28, "wickets": 1, "overs": 5.2 },    
+    "result": {
+      "winner": "ieagles",
+      "margin": "5 wickets"
     }
   }
 };
